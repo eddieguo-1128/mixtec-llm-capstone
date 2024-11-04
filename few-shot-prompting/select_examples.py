@@ -103,10 +103,11 @@ if __name__ == "__main__":
     dataset_path = '../data/train-00000-of-00001.parquet'
     dict_path = 'dictionary.json'
     metric = 'lexeme_recall'
-    k = 10
+    k = 30
     dictionary = read_dict(dict_path)
 
     chosen_examples = top_k_examples(dataset_path, example_sentence_to_translate, k, metric, dictionary)
+    chosen_examples.to_csv('top_k_examples.csv', index=False)
     print(f'Example sentence to translate: {example_sentence_to_translate}')
     print(f'Found top {k} examples, alongwith translation and similarity scores:')
     print(chosen_examples['cleaned_transcription'].tolist())
