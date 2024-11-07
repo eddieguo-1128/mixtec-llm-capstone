@@ -42,17 +42,6 @@ def pairwise_similarity(sentence_to_translate, sentence_in_dataset, metric='rand
         return chrf_similarity
 
 
-def top_k_examples(dataset_path, sentence_to_translate, k, metric='random', dictionary=None):
-    df = pd.read_parquet(dataset_path)
-    transcriptions = df['cleaned_transcription'].tolist()
-    similarities = []
-    for transcription in transcriptions:
-        similarities.append(pairwise_similarity(sentence_to_translate, transcription, metric, dictionary))
-    df['similarity'] = similarities
-    sorted_df = df.sort_values(by='similarity', ascending=False)
-    return sorted_df.head(k)
-
-
 def split_sentence(sent):
     sent = sent.replace("(", "").replace(")", "")
     # separate when encounter the following: space, punct, equal sign
@@ -75,6 +64,32 @@ def split_sentence(sent):
     return merged_segments
 
 
+def lexeme_to_gloss_mapping(sentence, dictionary):
+    lexemes = split_sentence(sentence)
+    gloss_mapping = {lexeme: dictionary.get(lexeme, []) for lexeme in lexemes if lexeme in dictionary}
+    return gloss_mapping
+
+
+def top_k_examples(dataset_path, sentence_to_translate, k, metric='random', dictionary=None):
+    df = pd.read_parquet(dataset_path)
+    transcriptions = df['cleaned_transcription'].tolist()
+    similarities = []
+    gloss_mappings = []
+
+    for transcription in transcriptions:
+        similarity = pairwise_similarity(sentence_to_translate, transcription, metric, dictionary)
+        similarities.append(similarity)
+
+        gloss_mapping = lexeme_to_gloss_mapping(transcription, dictionary)
+        gloss_mappings.append(gloss_mapping)
+    
+    df['similarity'] = similarities
+    df['lexeme_gloss_mapping'] = gloss_mappings
+
+    sorted_df = df.sort_values(by='similarity', ascending=False)
+    return sorted_df.head(k)
+
+
 def read_dict(dict_path):
     with open(dict_path, 'r', encoding='utf-8') as file:
         json_data = json.load(file)
@@ -84,14 +99,20 @@ def read_dict(dict_path):
         lexeme = entry.get("lexeme")
         gloss = entry.get("gloss")
         alternate_forms = entry.get("alternate_forms", [])
+        habituals = entry.get("habitual", [])
+        completives = entry.get("completive", [])
 
         # Add the main lexeme to the dictionary
         if lexeme and gloss:
             lexeme_dict[lexeme].append(gloss)
 
-        # Add each alternate form to the dictionary
+        # Add each alternate_form/habitual/completive to the dictionary
         for form in alternate_forms:
             lexeme_dict[form].append(gloss)
+        for habitual in habituals:
+            lexeme_dict[habitual].append(gloss)
+        for completive in completives:
+            lexeme_dict[completive].append(gloss)
 
         # Convert defaultdict to a regular dictionary for output
     return dict(lexeme_dict)
