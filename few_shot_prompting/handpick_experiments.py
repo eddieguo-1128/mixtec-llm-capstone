@@ -9,8 +9,9 @@ from few_shot_prompting.metrics import calculate_chrf
 from select_examples import top_k_examples, read_dict, lexeme_to_gloss_mapping, split_sentence
 from nltk.translate import chrf
 from dotenv import load_dotenv
+import re
 
-def perform_experiment_mix2spa(k, metric, test_data):
+def perform_experiment_mix2spa(k, metric, test_data, use_dict=True):
     setup = f'{metric}_{k}'
     score = 0
     print(f'Experimenting with the following setup: similarity_metric={metric}, num_shots={k}')
@@ -18,32 +19,41 @@ def perform_experiment_mix2spa(k, metric, test_data):
     translations = test_data['translation'].tolist()
     for translation, transcription in zip(translations, transcriptions):
         few_shot_examples = top_k_examples(train_data_path, transcription, k, metric, dictionary)
-        messages = generate_prompt_mix2spa(transcription, few_shot_examples, False, False)
+        messages = generate_prompt_mix2spa(transcription, few_shot_examples, use_dict, False)
         response = litellm.completion(
             model='gpt-4o',
             api_key=llm_api_key,
             base_url=llm_base_url,
             messages=messages,
-            max_tokens=200,
+            max_tokens=1000,
+            temperature=0
         )
-        model_translation = response.choices[0].message.content
+        try:
+            model_response = response.choices[0].message.content
+            # model_translation = model_response
+            enclosed_content = re.findall(r'###(.*?)###', model_response)[0]
+            model_translation = enclosed_content if len(enclosed_content) > 0 else model_response
+        except:
+            model_translation = ''
+
         chrf = calculate_chrf(model_translation, [translation])
-        with open("handpick_examples_result_no_dict.txt", "a") as file:
+        with open("handpick_examples_result.txt", "a") as file:
             file.write(f"[Setup]: {setup}\n")
             file.write(f"[Sentence to translate]: {transcription}\n")
+            file.write(f"[Model Output]: {model_response}\n")
+            file.write(f"[Model Translation]: {model_translation}\n")
             file.write(f"[Reference]: {translation}\n")
-            file.write(f"[Model Output]: {model_translation}\n")
             file.write(f"[CHRF]: {chrf}\n")
             file.write(f"[Prompt]:\n{messages[1]['content']}\n\n")
         score += chrf
 
     print(f'Average CHRF for {setup}: {score / len(translations)}')
-    with open("handpick_examples_result_no_dict.txt", "a") as file:
+    with open("handpick_examples_result.txt", "a") as file:
         file.write(f"Average CHRF for {setup}: {score / len(translations)}\n")
 
 
 def generate_prompt_mix2spa(sentence_to_translate, few_shot_examples, use_dict=True, sample_contain_dict=False):
-    system_prompt = "You are a translator between Mixtec and Spanish. Based on the following examples, translate the user's query. Only output the Spanish translation, nothing else.\n\n"
+    system_prompt = "You are a translator between Mixtec and Spanish. Based on the following examples, translate the user's query.\n\n"
     if sample_contain_dict:
         pass
 
@@ -55,9 +65,14 @@ def generate_prompt_mix2spa(sentence_to_translate, few_shot_examples, use_dict=T
     lexemes = list(set(lexemes))  # only keep unique lexemes
     for lexeme in lexemes:
         if lexeme in dictionary:
+            gloss = dictionary[lexeme][0]
+            sigs = dictionary[lexeme][1:]
+            meaning_str = f'{lexeme}: {gloss}\n'
+            for i in range(len(sigs)):
+                meaning_str += f'\tDetailed Explanation {i + 1} for {lexeme}: {sigs[i]}\n'
             # turn dictionary[lexeme] (a list) to a string for LLM
-            meaning_str = f'{lexeme}: {", ".join(dictionary[lexeme])}'
-            dict_prompt += meaning_str + '\n'
+            # meaning_str = f'{lexeme}: {" && ".join(dictionary[lexeme])}'
+            dict_prompt += meaning_str + '\n\n'
 
     example_prompt = ''
     for i in range(k):
@@ -65,7 +80,11 @@ def generate_prompt_mix2spa(sentence_to_translate, few_shot_examples, use_dict=T
         example_prompt += f'Mixtec: {example_transcriptions[i]}\n'
         example_prompt += f'Spanish: {example_translations[i]}\n\n'
 
-    task_prompt = '\nTask (translate the following Mixtec):\n'
+    grammar_prompt = 'You are given this Mixtec grammar book.  Feel free to rely on the grammar rules in the book in your translation.'
+
+    task_prompt = '\nTask:\n'
+    task_prompt += 'Please first explain what each word means in Spanish and then translate. Please enclose your final translation in ###. For example, if your translation is "Hello world", the last part of your output should be ###Hello world###.\n'
+    # task_prompt = '\nTask (Translate to Spanish):\n'
     task_prompt += f'Mixtec: {sentence_to_translate}\nSpanish:'
 
     if use_dict:
@@ -95,7 +114,7 @@ def generate_prompt_mix2spa(sentence_to_translate, few_shot_examples, use_dict=T
 if __name__ == "__main__":
     # experiment setup
     metrics = ['chrf', 'lexeme_recall', 'random']
-    num_shots = [10, 20, 50]
+    num_shots = [3, 10, 20, 50]
 
     # prepare data
     load_dotenv()
@@ -117,7 +136,7 @@ if __name__ == "__main__":
 
     for k in num_shots:
         for metric in metrics:
-            perform_experiment_mix2spa(k, metric, df)
+            perform_experiment_mix2spa(k, metric, df, True)
 
 
 

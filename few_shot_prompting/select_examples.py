@@ -6,6 +6,13 @@ import json
 from collections import defaultdict
 
 
+def format_lexeme_gloss(lexeme_gloss_mapping):
+    description = ""
+    for lexeme, glosses in lexeme_gloss_mapping.items():
+        gloss_str = ", ".join([gloss for gloss in glosses if gloss is not None])
+        description += f'the lexeme "{lexeme}" means "{gloss_str}"; '
+    return description.rstrip(";\n")
+
 def pairwise_similarity(sentence_to_translate, sentence_in_dataset, metric='random', dictionary=None):
     available_metrics = ['random', 'lexeme_recall', 'chrf']
     if metric not in available_metrics:
@@ -102,11 +109,16 @@ def read_dict(dict_path):
         habituals = entry.get("habitual", [])
         completives = entry.get("completive", [])
 
+        sigs = entry.get("sig", [])
+
         # Add the main lexeme to the dictionary
         if lexeme and gloss:
             lexeme_dict[lexeme].append(gloss)
 
-        # Add each alternate_form/habitual/completive to the dictionary
+        for sig in sigs:
+            lexeme_dict[lexeme].append(sig)
+
+        # Add each alternate_form/habitual/completive/sig to the dictionary
         for form in alternate_forms:
             lexeme_dict[form].append(gloss)
         for habitual in habituals:
@@ -135,7 +147,13 @@ if __name__ == "__main__":
     print(chosen_examples['translation'].tolist())
     print(chosen_examples['similarity'].tolist())
 
-    # print(read_dict(dict_path))
+    example_mapping = lexeme_to_gloss_mapping(example_sentence_to_translate, dictionary)
+    print(example_mapping)
+    print(format_lexeme_gloss(example_mapping))
+
+    print(read_dict(dict_path))
+    dictionary = read_dict(dict_path)
+    print(dictionary['an4'])
     # for element in example_splitted_sent:
     #     if element in dictionary:
     #         print(f'\"{element}\" is found in the dictionary. Gloss: {dictionary[element]}')
