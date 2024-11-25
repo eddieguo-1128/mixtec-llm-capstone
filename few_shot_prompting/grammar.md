@@ -4,7 +4,7 @@
 
 Personal pronouns are richly represented in Mixtec.
 
-### Personal Pronouns in Atatláhuca Mixtec[^1]
+### Personal Pronouns in Atatláhuca Mixtec
 
 | Person                | Type      | Independent | Dependent | Used for            |
 |-----------------------|-----------|-------------|-----------|---------------------|
