@@ -51,7 +51,9 @@ def create_vocab(dictionary_path, vocab_path):
 
 
 def lookup(lexeme, dict_stems, no_seg_stems, dict_json):
-    punct = """!"#$%&'()*+,-./:;<>?@[\]^_`{|}~¿"""
+    if lexeme is None:
+        return None
+    punct = """!"#$%&'()*+,-./:;<>?@[\]^_`{|}~¿¡"""
     # starts/ends with punct -> remove that
     while lexeme[0] in punct:
         lexeme = lexeme[1:]
@@ -78,12 +80,14 @@ def retrieve_meaning(lexeme, dict_json):
     gloss = []
     sigs = []
     found_field = []
+    original_word = []
 
     for entry in dict_json:
         if entry.get("lexeme") == lexeme:
             gloss.append(entry.get("gloss", ""))
             sigs.append(entry.get("sig", []))
             found_field.append('lexeme')
+            original_word.append(lexeme)
             continue
 
         for field in cols.values():
@@ -91,8 +95,68 @@ def retrieve_meaning(lexeme, dict_json):
                 gloss.append(entry.get("gloss", ""))
                 sigs.append(entry.get("sig", []))
                 found_field.append(field)
+                original_word.append(entry.get("lexeme"))
                 break
-    return gloss, sigs, found_field
+    return gloss, sigs, found_field, original_word
+
+
+def generate_diff_explaination(lookup, found):
+    diff_expl = ''
+    # Case 1: ni- completives; 1 tone is base form, 14 is negative, 4 is an alternate form
+    explanations = {
+        'ni1-': 'completive compositional prefix',
+        'ni4-': 'completive compositional prefix',
+        'ni14-': 'negative completive compositional prefix'
+    }
+    # either string contain completive prefix -> output that
+    compl_1 = re.match(r"ni(?:14|4|1)-", lookup)
+    compl_2 = re.match(r"ni(?:14|4|1)-", found)
+    if compl_1:
+        diff_expl += f'{compl_1.group()} is a {explanations[compl_1.group()]}.\n'
+    if compl_2:
+        diff_expl += f'{compl_2.group()} is a {explanations[compl_2.group()]}.\n'
+
+    # Case 2: ndVT - iterative; 3 tone is base form
+    iterative_1 = re.match(r"(nd[aeiou])[1-4]+-?", lookup)
+    iterative_2 = re.match(r"(nd[aeiou])[1-4]+-?", found)
+    if iterative_1:
+        diff_expl += f'{iterative_1.group()} is an iterative compositional prefix.\n'
+    if iterative_2:
+        diff_expl += f'{iterative_2.group()} is an iterative compositional prefix.\n'
+
+    # Case 3: x/s/j alternations of the first consonant
+    if len(lookup) == len(found) and lookup[0] in "xsj" and found[0] in "xsj":
+        diff_expl += f'{found} has the same meaning as {lookup}.'
+
+    return diff_expl
+
+def generate_dict_prompt(lookup_lexeme, found, gloss, sigs, found_field, original_word):
+
+    if found_field == 'lexeme' or found_field == 'alternate_forms':
+        field = 'original'
+    else:
+        field = found_field
+
+    # exact_match_prompt = f'{lookup_lexeme} is found in the dictionary, it is the {field} form of {original_word}.\n'
+    # not_exact_match_prompt = f'{lookup_lexeme} is not found in the dictionary, but {found} is found. {found} is the {field} form of {original_word}.\n'
+
+    meaning_prompt = ''
+    if lookup_lexeme.replace('-', '') == found.replace('-', ''):
+        # exact match
+        meaning_prompt = f'{original_word}: {gloss}\n'
+        for i in range(len(sigs)):
+            meaning_prompt += f'\tDetailed Explanation {i + 1} for {original_word}: {sigs[i]}\n'
+        # return exact_match_prompt + meaning_prompt
+        return meaning_prompt
+    else:
+        # not exact match
+        # diff_expl = generate_diff_explaination(lookup_lexeme, found)
+        # not_exact_match_prompt += diff_expl
+        meaning_prompt = f'{original_word}: {gloss}\n'
+        for i in range(len(sigs)):
+            meaning_prompt += f'\tDetailed Explanation {i + 1} for {original_word}: {sigs[i]}\n'
+        # return not_exact_match_prompt + meaning_prompt
+        return meaning_prompt
 
 
 if __name__ == "__main__":
@@ -120,7 +184,7 @@ if __name__ == "__main__":
 
     for transcription in transcriptions:
         lexemes = split_sentence(transcription.lower())
-        punct = """!"#$%&'()*+,-./:;<>?@[\]^_`{|}~¿"""
+        punct = """!"#$%&'()*+,-./:;<>?@[\]^_`{|}~¿¡"""
 
         for lexeme in lexemes:
             # not a Mixtec word, ignore it
@@ -137,7 +201,7 @@ if __name__ == "__main__":
             if lexeme not in unique_lexemes:
                 unique_lexemes.append(lexeme)
             result = lookup_stem(lexeme, dict_stems, no_seg_stems)
-            meaning = lookup(lexeme, dict_stems, no_seg_stems, dict_json)
+            meaning = lookup(result, dict_stems, no_seg_stems, dict_json)
 
             # record found lexemes
             if result is not None and result not in found_lexemes:
@@ -147,9 +211,13 @@ if __name__ == "__main__":
 
             # show cases that founded is not the same as the word in the corpus
             if (result is not None) and lexeme.replace('-', '') != result.replace('-', ''):
-                print(f'lookup for {lexeme}, found {result} in the dict')
-                print(f'found entry (gloss, sigs, field): {meaning}')
+                # print(f'lookup for {lexeme}, found {result} in the dict')
+                # print(f'found entry (gloss, sigs, field, original word): {meaning}')
+                # gloss, sigs, field, original_word = meaning
+                # for i in range(len(gloss)):
+                #     print(generate_dict_prompt(lexeme, result, gloss[i], sigs[i], field[i], original_word[i]))
                 print('-' * 50)
+                pass
 
             if (result is None) and (lexeme not in miss_lexemes):
                 miss_lexemes.append(lexeme)
