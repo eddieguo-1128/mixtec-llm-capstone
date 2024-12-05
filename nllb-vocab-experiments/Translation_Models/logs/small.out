@@ -1,0 +1,39 @@
+LOADING THE ENVIRONMENT
+Starting
+Using cuda device
+1.2069513371733616
+2.7455985476001366
+OLD TOKENIZER: 256204
+NEW TOKENIZER: 260883
+
+ADDED VOCAB: 4679
+<class 'transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration'>
+STEP 3: bpe EMBEDDINGS RESIZING AND REINITIALIZATION DONE!
+MODEL IS USING DEVICE: cuda:0
+Epoch 1 --------------------------------
+
+Num Batches:  2053
+DF_Train:  32849
+0 6.628074645996094
+Epoch 2 --------------------------------
+
+Num Batches:  2053
+DF_Train:  32849
+0 6.6328418254852295
+Epoch 3 --------------------------------
+
+Num Batches:  2053
+DF_Train:  32849
+0 6.510965347290039
+Epoch 4 --------------------------------
+
+Num Batches:  2053
+DF_Train:  32849
+0 6.459179878234863
+Epoch 5 --------------------------------
+
+Num Batches:  2053
+DF_Train:  32849
+0 6.420859241485596
+STEP 5: TRAINING DONE!
+DONE!

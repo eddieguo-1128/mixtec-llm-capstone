@@ -1,0 +1,44 @@
+wandb: Currently logged in as: aaditd (aadit). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/aaditd/.netrc
+wandb: Tracking run with wandb version 0.17.9
+wandb: Run data is saved locally in /home/aaditd/3_Capstone/Translation_Models/wandb/run-20241107_122203-50rd7kh1
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run small_trial
+wandb: ⭐️ View project at https://wandb.ai/aadit/Mixtec_LLM
+wandb: 🚀 View run at https://wandb.ai/aadit/Mixtec_LLM/runs/50rd7kh1
+/home/aaditd/miniconda3/envs/py31/lib/python3.11/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/aaditd/3_Capstone/Translation_Models/finetune_epoch.py:138: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  stats = sample[['Mixtec_Tokens', 'Spanish_Tokens', 'Mixtec_Human_Words', 'Spanish_Human_Words']].applymap(len).describe()
+/home/aaditd/miniconda3/envs/py31/lib/python3.11/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/aaditd/miniconda3/envs/py31/lib/python3.11/site-packages/transformers/utils/generic.py:311: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  torch.utils._pytree._register_pytree_node(
+You are resizing the embedding layer without providing a `pad_to_multiple_of` parameter. This means that the new embedding dimension will be 260883. This might induce some performance reduction as *Tensor Cores* will not be available. For more details about this, or help on choosing the correct value for resizing, refer to this guide: https://docs.nvidia.com/deeplearning/performance/dl-performance-matrix-multiplication/index.html#requirements-tc
+  0%|          | 0/4679 [00:00<?, ?it/s] 12%|█▏        | 556/4679 [00:00<00:00, 5556.34it/s] 24%|██▍       | 1127/4679 [00:00<00:00, 5646.39it/s] 37%|███▋      | 1718/4679 [00:00<00:00, 5764.96it/s] 49%|████▉     | 2308/4679 [00:00<00:00, 5816.37it/s] 62%|██████▏   | 2904/4679 [00:00<00:00, 5865.60it/s] 75%|███████▍  | 3496/4679 [00:00<00:00, 5879.92it/s] 88%|████████▊ | 4103/4679 [00:00<00:00, 5941.76it/s]100%|██████████| 4679/4679 [00:00<00:00, 5815.33it/s]
+  0%|          | 0/2053 [00:00<?, ?it/s]  0%|          | 0/2053 [00:00<?, ?it/s]
+  0%|          | 0/2053 [00:00<?, ?it/s]  0%|          | 0/2053 [00:00<?, ?it/s]
+  0%|          | 0/2053 [00:00<?, ?it/s]  0%|          | 0/2053 [00:00<?, ?it/s]
+  0%|          | 0/2053 [00:00<?, ?it/s]  0%|          | 0/2053 [00:00<?, ?it/s]
+  0%|          | 0/2053 [00:00<?, ?it/s]  0%|          | 0/2053 [00:00<?, ?it/s]
+wandb: - 0.037 MB of 0.037 MB uploadedwandb: \ 0.037 MB of 0.037 MB uploadedwandb: | 0.046 MB of 0.046 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:            epoch ▁▃▅▆█
+wandb: epoch_train_loss ██▁▂▁
+wandb:        iteration ▁▁▁▁▁
+wandb:       train_loss ██▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:            epoch 4
+wandb: epoch_train_loss 0.00305
+wandb:        iteration 0
+wandb:       train_loss 6.26758
+wandb: 
+wandb: 🚀 View run small_trial at: https://wandb.ai/aadit/Mixtec_LLM/runs/50rd7kh1
+wandb: ⭐️ View project at: https://wandb.ai/aadit/Mixtec_LLM
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20241107_122203-50rd7kh1/logs
+wandb: WARNING wandb version 0.18.6 is available!  To upgrade, please run:
+wandb: WARNING  $ pip install wandb --upgrade
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.

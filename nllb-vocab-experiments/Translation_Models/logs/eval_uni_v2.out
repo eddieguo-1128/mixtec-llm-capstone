@@ -1,0 +1,11 @@
+LOADING THE ENVIRONMENT
+Starting
+MIXTEC TO SPANISH SCORES: 
+BLEU = 23.86 39.8/27.6/20.9/14.1 (BP = 1.000 ratio = 1.023 hyp_len = 88 ref_len = 86)
+chrF2++ = 21.79
+
+SPANISH TO MIXTEC SCORES: 
+BLEU = 30.43 81.6/37.8/19.4/14.3 (BP = 1.000 ratio = 1.000 hyp_len = 38 ref_len = 38)
+chrF2++ = 43.20
+
+DONE!

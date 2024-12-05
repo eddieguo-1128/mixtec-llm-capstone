@@ -1,0 +1,27 @@
+LOADING THE ENVIRONMENT
+Starting
+Using cuda device
+1.2069513371733616
+2.7455985476001366
+OLD TOKENIZER: 256204
+NEW TOKENIZER: 260883
+
+ADDED VOCAB: 4679
+<class 'transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration'>
+STEP 3: bpe EMBEDDINGS RESIZING AND REINITIALIZATION DONE!
+MODEL IS USING DEVICE: cuda:0
+0 nan
+1000 nan
+Saved Model and tokenizer at iteration 1000!!
+2000 nan
+Saved Model and tokenizer at iteration 2000!!
+3000 nan
+Saved Model and tokenizer at iteration 3000!!
+4000 nan
+Saved Model and tokenizer at iteration 4000!!
+5000 nan
+Saved Model and tokenizer at iteration 5000!!
+6000 nan
+Saved Model and tokenizer at iteration 6000!!
+7000 nan
+Saved Model and tokenizer at iteration 7000!!

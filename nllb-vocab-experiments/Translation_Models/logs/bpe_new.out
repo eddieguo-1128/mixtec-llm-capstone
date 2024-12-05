@@ -1,0 +1,25 @@
+LOADING THE ENVIRONMENT
+Starting
+Using cuda device
+**************************************************
+Train_Batches:  2053
+Val_Batches:  226
+**************************************************
+1.2497067982367451
+2.9782888914104166
+DEFAULT TOKENIZER: 256205
+
+<class 'transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration'>
+MODEL IS USING DEVICE: cuda:0
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+STEP 5: TRAINING DONE!
+DONE!

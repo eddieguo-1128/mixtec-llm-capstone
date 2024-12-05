@@ -1,0 +1,25 @@
+LOADING THE ENVIRONMENT
+Starting
+Using cuda device
+**************************************************
+Train_Batches:  2053
+Val_Batches:  226
+**************************************************
+1.2357948800905894
+2.7836264609100194
+OLD TOKENIZER: 256204
+NEW TOKENIZER: 257136
+
+ADDED VOCAB: 932
+<class 'transformers.models.m2m_100.modeling_m2m_100.M2M100ForConditionalGeneration'>
+STEP 3: unigram EMBEDDINGS RESIZING AND REINITIALIZATION DONE!
+MODEL IS USING DEVICE: cuda:0
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
+Saved Model and tokenizer after Batch 1200!!
