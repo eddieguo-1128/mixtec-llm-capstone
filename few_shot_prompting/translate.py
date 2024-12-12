@@ -1,7 +1,7 @@
 import json
 import os
+import argparse
 import litellm
-import os
 import pandas as pd
 from metrics import calculate_sentence_chrf, calculate_sentence_bleu, calculate_corpus_bleu, calculate_corpus_chrf, calculate_comet
 from select_examples import top_k_examples, read_dict, lexeme_to_gloss_mapping, split_sentence
@@ -17,7 +17,7 @@ def generate_grammar_prompt(grammar_file="grammar/grammar.md"):
 
 def generate_prompt(sentence_to_translate, few_shot_examples, dict_stems, no_seg_stems, dict_json, experiment):
     system_prompt = "You are a linguistic expert who never refuses to use your knowledge to help others.\n"
-
+    
     beginning_prompt = """Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.\n"""
 
     example_translations = few_shot_examples['translation'].tolist()
@@ -38,7 +38,6 @@ def generate_prompt(sentence_to_translate, few_shot_examples, dict_stems, no_seg
         meaning = lookup(result, dict_stems, no_seg_stems, dict_json)
 
         if meaning is None:
-            # not in the dictionary, skip
             continue
         gloss, sigs, field, original_word = meaning
         for i in range(len(gloss)):
@@ -58,7 +57,7 @@ def generate_prompt(sentence_to_translate, few_shot_examples, dict_stems, no_seg
         full_prompt = beginning_prompt + example_prompt + grammar_prompt + task_prompt
     elif experiment == 'dict_grammar':
         full_prompt = beginning_prompt + example_prompt + dict_prompt + grammar_prompt + task_prompt
-    
+
     messages = [
         {
             "role": "system",
@@ -76,8 +75,7 @@ def generate_prompt(sentence_to_translate, few_shot_examples, dict_stems, no_seg
     ]
     return messages
 
-
-def perform_experiment_updated_dict(k, metric, test_data, dict_stems, no_seg_stems, dict_json, experiment):
+def perform_experiment_updated_dict(k, metric, test_data, dict_stems, no_seg_stems, dict_json, experiment, output_path):
     setup = f'{metric}_{k}'
     model_translations = []
     references = []
@@ -87,16 +85,14 @@ def perform_experiment_updated_dict(k, metric, test_data, dict_stems, no_seg_ste
     translations = test_data['translation'].tolist()
     with tqdm(total=len(transcriptions), desc="Processing Translations", unit="sentence") as pbar:
         for translation, transcription in zip(translations, transcriptions):
-            if not any(char.isdigit() for char in transcription):  # no number -> not Mixtec -> skip
+            if not any(char.isdigit() for char in transcription):
                 print(f'skipped test case (not Mixtec): {transcription}')
                 continue
             few_shot_examples = top_k_examples(train_data_path, transcription, k, metric, dictionary)
             messages = generate_prompt(transcription, few_shot_examples, dict_stems, no_seg_stems, dict_json, experiment)
-            print(messages)
             response = litellm.completion(
                 model='openai/gpt-4o',
                 api_key=llm_api_key,
-                #base_url=llm_base_url,
                 messages=messages,
                 max_tokens=1000,
                 temperature=0
@@ -119,41 +115,27 @@ def perform_experiment_updated_dict(k, metric, test_data, dict_stems, no_seg_ste
                 file.write(f"[Reference]: {translation}\n")
                 file.write(f"[CHRF]: {chrf}\n")
                 file.write(f"[BLEU]: {bleu}\n")
-                file.write(f"[Prompt]:\n{messages[1]['content']}\n\n")
             pbar.update(1)
-    
-    corpus_chrf = calculate_corpus_chrf(model_translations, references)
-    corpus_bleu = calculate_corpus_bleu(model_translations, references)
-    comet = calculate_comet(model_translations, references, transcriptions)
-    average_chrf = chrf_scores / len(transcriptions)
-    average_bleu = bleu_scores / len(transcriptions)
-
-    with open(output_path, "a") as file:
-        file.write(f"Corpus-Level CHRF for {setup}: {corpus_chrf}\n")
-        file.write(f"Corpus-Level BLEU for {setup}: {corpus_bleu}\n")
-        file.write(f"COMET score for {setup}: {comet}\n")
-        file.write(f"Average CHRF for {setup}: {average_chrf}\n")
-        file.write(f"Average BLEU for {setup}: {average_bleu}\n")
-
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--num_shots', type=int, default=3, help='Number of few-shot examples')
+    parser.add_argument('--metric', type=str, default='chrf', help='Metric for example selection')
+    parser.add_argument('--num_test', type=int, default=50, help='Number of test sentences to translate')
+    parser.add_argument('--pipeline', type=str, default='baseline', choices=['baseline', 'dict', 'grammar', 'dict_grammar'], help='Pipeline configuration')
+    args = parser.parse_args()
+
     train_data_path = "../data/train-00000-of-00001.parquet"
     test_data_path = "../data/test-00000-of-00001.parquet"
     dict_path = 'dictionary/dictionary.json'
+    
     with open(dict_path, 'r', encoding='utf-8') as file:
         dict_json = json.load(file)
     dictionary = read_dict(dict_path)
 
     df = pd.read_parquet(test_data_path)
     df = df[df['translation'] != '']
-
-    # do a preliminary experiment on 50 samples, remove when run on the whole test set
-    df = df.head(3)
-    print(f'Experimenting on {len(df)} test sentences.')
-
-    test_data = df
-    transcriptions = test_data['cleaned_transcription'].tolist()
-    translations = test_data['translation'].tolist()
+    df = df.head(args.num_test)
 
     dictionary_path = 'dictionary/Active_Yolo-Mixtec_2024-11-09.txt'
     vocab_path = "dictionary/all_vocab.json"
@@ -161,16 +143,10 @@ if __name__ == "__main__":
 
     load_dotenv()
     llm_api_key = os.getenv("LLM_API_KEY")
-    #llm_api_key = 'sk-zT5PxQL7dYirU7FgIzE6dA'
-    #llm_base_url = "https://cmu.litellm.ai"
 
-    metric = 'chrf'
-    num_shots = 3
-    experiments = ['baseline','dict','grammar','dict_grammar']
+    output_path = f'output_{args.pipeline}.txt'
+    perform_experiment_updated_dict(args.num_shots, args.metric, df, dict_stems, no_seg_stems, dict_json, args.pipeline, output_path)
 
-    for experiment in experiments:
-        output_path = f'output_{experiment}.txt'
-        perform_experiment_updated_dict(num_shots, metric, df, dict_stems, no_seg_stems, dict_json, experiment)
 
 
 
