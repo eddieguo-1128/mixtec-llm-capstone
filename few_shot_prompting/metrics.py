@@ -1,33 +1,42 @@
 import sacrebleu
 from comet import download_model, load_from_checkpoint
+from sacrebleu.metrics import BLEU, CHRF
 
 
 # sacrebleu: 0 to 100, higher score = higher quality
-def calculate_bleu(output, reference):
+def calculate_sentence_bleu(output, reference):
     return sacrebleu.sentence_bleu(output, reference).score
 
+def calculate_corpus_bleu(output, reference):
+    bleu = BLEU()
+    return bleu.corpus_score(output, reference)
 
 # chrf: 0 to 100, higher score = higher quality
-def calculate_chrf(output, reference):
+def calculate_sentence_chrf(output, reference):
     return sacrebleu.sentence_chrf(output, reference).score
+
+def calculate_corpus_chrf(output, reference):
+    chrf = CHRF()
+    return chrf.corpus_score(output, reference)
 
 
 # comet: generally -1 to 1 (may outside this range slightly), higher score = higher quality
-def calculate_comet(output, reference, source, batch_size=8, gpus=0):
+def calculate_comet(outputs, references, sources, batch_size=8, gpus=0):
+    model_path = download_model("Unbabel/wmt22-comet-da")
+    comet_model = load_from_checkpoint(model_path)
+
     data = [
-        {
-            "src": source,
-            "mt": output,
-            "ref": reference[0]
-        }
+        {"src": src, "mt": mt, "ref": ref} 
+        for src, mt, ref in zip(sources, outputs, references)
     ]
-    comet_score = comet_model.predict(data, batch_size=batch_size, gpus=gpus)
-    return comet_score['scores'][0]
+
+    scores = comet_model.predict(data, batch_size=batch_size, gpus=gpus)
+    return scores["system_score"]
 
 
 def eval_all_metrics(output, reference, source):
-    result = {'bleu': calculate_bleu(output, reference), 'comet': calculate_comet(output, reference, source),
-              'chrf': calculate_chrf(output, ref)}
+    result = {'bleu': calculate_sentence_bleu(output, reference), 'comet': calculate_comet(output, reference, source),
+              'chrf': calculate_sentence_chrf(output, reference)}
     return result
 
 

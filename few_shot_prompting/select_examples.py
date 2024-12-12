@@ -1,6 +1,6 @@
 import pandas as pd
 import random
-from metrics import calculate_chrf
+from metrics import calculate_sentence_chrf
 import re
 import json
 from collections import defaultdict
@@ -41,7 +41,7 @@ def pairwise_similarity(sentence_to_translate, sentence_in_dataset, metric='rand
         return lexeme_recall
 
     elif metric == 'chrf':
-        chrf_similarity = calculate_chrf(sentence_to_translate, [sentence_in_dataset])
+        chrf_similarity = calculate_sentence_chrf(sentence_to_translate, [sentence_in_dataset])
 
         # Prevent including the sentence to translate in returned examples.
         if chrf_similarity > 99.9:

@@ -1,0 +1,2405 @@
+[Setup]: chrf_3
+[Sentence to translate]: Bi3tin3 ndi4 yo'4o4 nda3tu'4un(4)=2 kwen4tu2, i3in3 kwen4tu2 ya3ta4 xa'1a4
+[Model Output]: Voy a platicar acerca de un cuento, aquí voy a contar un cuento acerca de.
+[Reference]: Ahora voy a contar un cuento sobre
+[CHRF]: 51.86445433518549
+[BLEU]: 21.409092659758045
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: An4 nda3tu'4un(4)=2 i3in3 kwen4tu2 ya3ta4 xa'1a4 ta1, ta1 chi1tun3 ndi4
+Spanish: Aquí voy a contar un cuento acerca de un hombre envidioso,
+
+Example 2: 
+Mixtec: An3, yo'4o4 nda3tu'4un(4)=2 kwen4tu2 xa'1a4 kwa14ku3 an4,
+Spanish: Aquí voy a platicar acerca de ese espíritu de pantano llamado <i>kwa14ku3</i>,
+
+Example 3: 
+Mixtec: Yo'4o4 nda3tu'4un(4)=2 kwen4tu2 xa'1a4 ti4 ti1ko3so4 ndi4
+Spanish: Aquí les voy a platicar acerca del <i>ti1ko3so4</i> o grillo.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Bi3tin3 ndi4 yo'4o4 nda3tu'4un(4)=2 kwen4tu2, i3in3 kwen4tu2 ya3ta4 xa'1a4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ta1 kan3to4ri2 ji'4in4 ku'1ba3=ra2 ña4 Ñu4la2 ba42 ku4u4=na2 na1 ba4li4 i3in3 tiem4pu2 tan3 na1 nda'4bi2 ku4u4=na2 ya1 kan4 ndi4
+[Model Output]: cuando los padres de San Juan les dicen a los niños que en el tiempo de antes eran huérfanos.
+[Reference]: un cantor y su hermana llamada Ñula en los tiempos cuando estaban pequeños y quedaron huérfanos,
+[CHRF]: 31.85314875261619
+[BLEU]: 2.7076576267554477
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ya1 kan4 ndi4, ku4u4=na2 na1 nda'4bi2, tan3 i3kan4 ka4chi2
+Spanish: Por eso eran huérfanos, entonces dijo ....
+
+Example 2: 
+Mixtec: na4tu2 ta1a3 ku4u4=na2 ku4u4=na2 na1 ba4li4 tan3, ji13ni2=na1 ndi3yu1u4 kan4 tan3
+Spanish: si son vistos por niños pequeños,
+
+Example 3: 
+Mixtec: sa3ba3 na1 ba4li4 ka'4an2 na1 ta4u3ni2 ji'4in4=na2 ndi4 ya1 kan4 ndi4
+Spanish: algunos señores les dicen a sus hijos que esa planta
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ta1 kan3to4ri2 ji'4in4 ku'1ba3=ra2 ña4 Ñu4la2 ba42 ku4u4=na2 na1 ba4li4 i3in3 tiem4pu2 tan3 na1 nda'4bi2 ku4u4=na2 ya1 kan4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ni1-ka'1an1=ra1 ji'4in4 ku'1ba3=ra2 sa1a3 ko3o3 nda3-kwi3in(3)=an4 yu'3u4=ra2 na4 nda3ka1tu'4un4=ra2=ña4 tan3
+[Model Output]: le dijo a su hermana que no podía ir a la casa porque estaba ocupado.
+[Reference]: y él le decía a su hermana cómo ella debía contestarle cuando él le hiciera una pregunta,
+[CHRF]: 23.718866956625114
+[BLEU]: 8.632916298377145
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Xa1 ku'4u2 ba3=ra2 sa3kan4 ba42 ndi4 nda13tu'4un4=ra2 ndi4 ji'4in4 ta1 kan4 ni1-xa'1an1=ra1.
+Spanish: Ya que estaba enfermo nos comentó que fue con su amigo a cazar.
+
+Example 2: 
+Mixtec: xa143 ya1kan3, ka4chi2=ra1 ji'4in4 ku'1ba3=ra2 ndi4:
+Spanish: el niño le dijo a su hermana:
+
+Example 3: 
+Mixtec: ta1 kan4 ja143 i1xa14a3 ni1-ka'1an1=ra1 ji'4in4 ña4 patrona=ra1 ndi4 ku4ni2=ra1 ndi4 ku3-nda3ka3=ra2=ña4.
+Spanish: se le ocurrió seducir a su patrona.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ni1-ka'1an1=ra1 ji'4in4 ku'1ba3=ra2 sa1a3 ko3o3 nda3-kwi3in(3)=an4 yu'3u4=ra2 na4 nda3ka1tu'4un4=ra2=ña4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ndi4 ji'3na3 ni1-ka'1an1=ra1 ji'4in(4)=an4 sa3kan4 ndi'13i3 tan3 ja143 ka'4an2=ra1 ji'4in(4)=an4, ka4chi2 ku'1ba(3)=en4 ji'4in(4)=an4 ndi4
+[Model Output]: La mujer quería que el hombre se quedara con ella, pero él se fue.
+[Reference]: primero él le dijo cómo debía hacerlo y después ella debía contestar, su hermano le dijo,
+[CHRF]: 17.357757849154016
+[BLEU]: 2.8403891990720456
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Example 2: 
+Mixtec: Ja143 ni1-xi1ka3=ra2 ka'4an2=ra1 ji'4in(4)=an4 ndi4 ku4ni2=ra1 ndi4 ku3ndu'4u4=ra2 ji'4in(4)=an4.
+Spanish: Entonces le dijo a la mujer que la quería como pareja.
+
+Example 3: 
+Mixtec: I3kan4 ka4chi2=ra1 ji'4in(4)=an4 ndi4, "Ni1-xi1ka3=ni42=yu1 tan3 ndi4 ni14-ke3-ba'1a3=2", ka4chi2=ra1 ji'4in(4)=an4.
+Spanish: Entonces el hombre le dijo, "Anduve buscando por todas partes pero no pude cazar nada".
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ndi4 ji'3na3 ni1-ka'1an1=ra1 ji'4in(4)=an4 sa3kan4 ndi'13i3 tan3 ja143 ka'4an2=ra1 ji'4in(4)=an4, ka4chi2 ku'1ba(3)=en4 ji'4in(4)=an4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: yo3o3 ndu3chi4 nu14u3 ku4u4 ndu3chi4 nu14u(3)=un4 ran4 mi4chun2 ka4chi2=ra1 ji'4in(4)=an4, ka4chi2=an4 kan4 nda13-kwi3in(3)=an4 yu'3u4=ra2 ndi4
+[Model Output]: El perro y el gato estaban peleando, entonces la mujer les dijo, así que el muchacho les contestó.
+[Reference]: "¿De quién son esos ojos pues gatita?", le decía. Y ella le contestó,
+[CHRF]: 24.099260735567785
+[BLEU]: 2.568331954752977
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ka4chi2 ko1o4 kan4 ji'4in4=ra2, i3kan4 nda13-kwi3in3=ra2 ka4chi2=ra1 ndi4:
+Spanish: Así le dijo la serpiente y el muchacho le contestó:
+
+Example 2: 
+Mixtec: ka4chi2=an4 xa4ku3=ni42=an4 i3kan4 ka4chi2=ra1 ji'4in(4)=an4 ndi4, "Kwa14ku(3)=un4 ndi4, yu'1u1 ndi4, ya1kan3,
+Spanish: así decía la mujer, entonces el hombre le dijo, "No llores, yo
+
+Example 3: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: yo3o3 ndu3chi4 nu14u3 ku4u4 ndu3chi4 nu14u(3)=un4 ran4 mi4chun2 ka4chi2=ra1 ji'4in(4)=an4, ka4chi2=an4 kan4 nda13-kwi3in(3)=an4 yu'3u4=ra2 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: a4su3 ndi4 yu1u4 ta4ta42 ji4to3 ta1 kan3to4ri2 nu14u3=ra2 ku4u(4)=a2, ka4chi2=an4 so'3o3, ka'4an2 tu3ku3=ra2 ji'4in(4)=an4 ndi4
+[Model Output]: en la casa de su padre, el sacerdote, le dijo a su suegra, y el borracho le dijo
+[Reference]: "Tú sabes que son los espejos donde el cantor se mira". Y él le volvió a preguntar,
+[CHRF]: 15.667186050228699
+[BLEU]: 2.568331954752977
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Example 2: 
+Mixtec: tan3 ya1 ka'4an2=na1 ji'4in(4)=a2 ku4u(4)=a2 yu3ba2 nu14u3 kwi4in2 kan4 ndi4
+Spanish: y le dicen <i>yu3ba2 nu14u3 kwi4in2</i> porque
+
+Example 3: 
+Mixtec: ka4chi2 tu3ku3=ra2 ji'4in4 ta1 kan4 ndi4, bi3tin3 ndi4, "Ya1kan3,
+Spanish: y el borracho le dijo:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: a4su3 ndi4 yu1u4 ta4ta42 ji4to3 ta1 kan3to4ri2 nu14u3=ra2 ku4u(4)=a2, ka4chi2=an4 so'3o3, ka'4an2 tu3ku3=ra2 ji'4in(4)=an4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: yo3o3 so'1o3 ku4u4 so'1o(3)=on4 ran4 mi4chun2 ka4chi2 ku'1ba(3)=en4 ji'4in(4)=an4, i3kan4 nda13-kwi3in(3)=an4 yu'3u4=ra2 ndi4
+[Model Output]: El suegro y la suegra del muchacho le dijeron que se fuera a su casa, y el muchacho les contestó que no.
+[Reference]: "¿De quién son tus orejas, gatita?". Y ella le contestó,
+[CHRF]: 20.72387168249202
+[BLEU]: 2.224972978585352
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ka4chi2 ko1o4 kan4 ji'4in4=ra2, i3kan4 nda13-kwi3in3=ra2 ka4chi2=ra1 ndi4:
+Spanish: Así le dijo la serpiente y el muchacho le contestó:
+
+Example 2: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Example 3: 
+Mixtec: sa3ba(3)=e2 ndi4 tio'1o3 nda3sun2 ka4chi2=na1 ji'4in(4)=a2 ndi4
+Spanish: hay algunos zapotes que se conocen como zapotes tostados porque
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: yo3o3 so'1o3 ku4u4 so'1o(3)=on4 ran4 mi4chun2 ka4chi2 ku'1ba(3)=en4 ji'4in(4)=an4, i3kan4 nda13-kwi3in(3)=an4 yu'3u4=ra2 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: a4su3 ndi4 ki1si3 ndi4ka1 chio'4o14 ña'1a3 xi4xi3 ta1 kan3to4ri2 ji'4in4 ña4 Ñu4la2 ku4u(4)=a2, ka4chi2 ku'1ba3=ra2 nda13-kwi3in(3)=an4
+[Model Output]: En la fiesta de la iglesia de San Juan, le dijo a su hermano el muchacho.
+[Reference]: "Pues es la cazuela donde el cantor cocina su comida con Ñula", contestó su hermana.
+[CHRF]: 22.01634955768493
+[BLEU]: 3.0379937028521833
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: xa143 ya1kan3, ka4chi2=ra1 ji'4in4 ku'1ba3=ra2 ndi4:
+Spanish: el niño le dijo a su hermana:
+
+Example 2: 
+Mixtec: Ka4chi2 ko1o4 kan4 ji'4in4=ra2, i3kan4 nda13-kwi3in3=ra2 ka4chi2=ra1 ndi4:
+Spanish: Así le dijo la serpiente y el muchacho le contestó:
+
+Example 3: 
+Mixtec: "Tan3 na1 ku'1un1 ku4u(4)=e4", ka4chi2=ra1 so'3o3 ji'4in4 ta1 xi1i4 a1chi1 ndi4 ka14sa3=ra2 ku4u4 ta1 kan4.
+Spanish: "Vamos a ir mañana", le dijo el señor de la lluvia al señor del fuego, que era su yerno.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: a4su3 ndi4 ki1si3 ndi4ka1 chio'4o14 ña'1a3 xi4xi3 ta1 kan3to4ri2 ji'4in4 ña4 Ñu4la2 ku4u(4)=a2, ka4chi2 ku'1ba3=ra2 nda13-kwi3in(3)=an4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: yo3o3 su'1ma4 ku4u4 su'1ma(4)=on4 mi4chun2, ka4chi2=ra1 ji'4in(4)=an4
+[Model Output]: El perro mató a su perro, le dijo a la mujer.
+[Reference]: "¿De quién es tu cola gatita?", le preguntó su hermano.
+[CHRF]: 12.64643249781403
+[BLEU]: 6.299392144493405
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Example 2: 
+Mixtec: "sa3ña4 nda'3a(4)=on4 cabrón ña1a4 na4 ku3u2=an4", ka4chi2=ra1 ji'4in(4)=2.
+Spanish: "Deja a esa niña que se muera", me decía.
+
+Example 3: 
+Mixtec: ka4chi2=ra1 ji'4in4 ña4 si'4i2=ra1 ndi4
+Spanish: Al llegar le dijo a su mujer,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: yo3o3 su'1ma4 ku4u4 su'1ma(4)=on4 mi4chun2, ka4chi2=ra1 ji'4in(4)=an4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: a4su3 ndi4 cuchara ka4chi'3i3 ña4 Ñu4la2 ña'1a3 xi4xi3 ta1 kan3to4ri2 ku4u(4)=a2, ka4chi2=an4 so'3o3 ji'4in4=ra3,
+[Model Output]: tomó la cuchara y le dijo a Ñula que cantara, contestó.
+[Reference]: "Pues es la cuchara con que Ñula sirve la comida para el cantor", le dijo ella.
+[CHRF]: 30.62600187902582
+[BLEU]: 6.0642528805367615
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: sa3kan4 ku1sun(1)=o4", ka4chi2=an4 so'3o3 ji'4in4=ra3.
+Spanish: para luego dormir", le dijo.
+
+Example 2: 
+Mixtec: "Ndi4to3 ba(3)=2 papá", ka4chi2=an4 so'3o3 ji'4in4=ra3.
+Spanish: "Sigo despierta papá", contestó.
+
+Example 3: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: a4su3 ndi4 cuchara ka4chi'3i3 ña4 Ñu4la2 ña'1a3 xi4xi3 ta1 kan3to4ri2 ku4u(4)=a2, ka4chi2=an4 so'3o3 ji'4in4=ra3,
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja143 ka'4an2=ra1 ji'4in(4)=an4 ndi4, yo3o3 i3xi4 i3in4 ku4u4 i3xi4 i3in(4)=un4 ran4 mi4chun2
+[Model Output]: Entonces la mujer le dijo a su esposo, ve a traer leña.
+[Reference]: Luego su hermano le dijo, "¿De quién son tus bellos gatita?".
+[CHRF]: 19.132040824622827
+[BLEU]: 6.191082705295718
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Example 2: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Example 3: 
+Mixtec: ndi3chi2 si'14bi3 ka'3a4 mi4chun2 ka'4an2=na1 ji'4in(4)=a3.
+Spanish: 
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja143 ka'4an2=ra1 ji'4in(4)=an4 ndi4, yo3o3 i3xi4 i3in4 ku4u4 i3xi4 i3in(4)=un4 ran4 mi4chun2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: a4su3 ndi4 ti1ka4chi4 u1bi1 nu14u3 ndi4xi3 ta1 kan3to4ri2 ji'4in4 ku'1ba3=ra2 ña4 Ñu4la2 ku4u(4)=a2, ka4chi2 tu3ku(3)=an4 nda13-kwi3in(3)=an4 yu'3u4=ra3
+[Model Output]: el hombre que vivía en el pueblo de abajo le dijo a su hermana que la señora de Ñula lo había llamado, y su esposo le contestó
+[Reference]: "Pues es la cobija de doble vista con que se tapa el cantor y su hermana Ñula", le contestó su hermana.
+[CHRF]: 32.71453403855825
+[BLEU]: 5.501034142180915
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ja1 ka4chi2 tu3ku(3)=an4 ji'4in4 i3i(4)=an4 ndi4, "Ja1 ni1-ku3-ya3tin3=ni42
+Spanish: la mujer le dijo a su esposo, "Ya viene muy cerca
+
+Example 2: 
+Mixtec: xa143 ya1kan3, ka4chi2=ra1 ji'4in4 ku'1ba3=ra2 ndi4:
+Spanish: el niño le dijo a su hermana:
+
+Example 3: 
+Mixtec: Ka4chi2 ko1o4 kan4 ji'4in4=ra2, i3kan4 nda13-kwi3in3=ra2 ka4chi2=ra1 ndi4:
+Spanish: Así le dijo la serpiente y el muchacho le contestó:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: a4su3 ndi4 ti1ka4chi4 u1bi1 nu14u3 ndi4xi3 ta1 kan3to4ri2 ji'4in4 ku'1ba3=ra2 ña4 Ñu4la2 ku4u(4)=a2, ka4chi2 tu3ku(3)=an4 nda13-kwi3in(3)=an4 yu'3u4=ra3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ku4u4=na2 na1 ba4li4 ka'4an2, ka'4an2=ra1 ji'4in4 ku'1ba3=ra2 tan3 nda4-kwi3in(3)=an4, i3kan4 ka'4an2=ra1 ji'4in(4)=an4 ndi4
+[Model Output]: Le dijo al hombre que el hombre había hablado, y entonces le dijo a la mujer.
+[Reference]: Eran niños, y le enseñ+o a su hermana a jugar con estas frases, él preguntando y ella contestando. Él le dijo,
+[CHRF]: 15.520983997378279
+[BLEU]: 4.07748532583177
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ki13xa2a2=ra1 ja143 ka'4an2, ka'4an2=ra1 ji'4in4 ta1 ni1-ku3-bi4ka3 kan4 ndi4
+Spanish: Cuando el hombre llegó le dijo al hombre que se había enriquecido,
+
+Example 2: 
+Mixtec: Ja143 ni1-xi1ka3=ra2 ka'4an2=ra1 ji'4in(4)=an4 ndi4 ku4ni2=ra1 ndi4 ku3ndu'4u4=ra2 ji'4in(4)=an4.
+Spanish: Entonces le dijo a la mujer que la quería como pareja.
+
+Example 3: 
+Mixtec: Ya1 kan4 ka'4an2=na1 ji'4in4 ku4u4 su'1nda32 yu3ku4 ka4chi2=na1 ji'4in(4)=a2 ran4, tan3 xa'4a13=e2 su'1nda32 nda1 kan4 nda4-kwi3in(3)=a2 ndi4
+Spanish: A eso le llaman <i>su'1nda32 yu3ku4</i>, repite en forma de eco más allá de donde se habla.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ku4u4=na2 na1 ba4li4 ka'4an2, ka'4an2=ra1 ji'4in4 ku'1ba3=ra2 tan3 nda4-kwi3in(3)=an4, i3kan4 ka'4an2=ra1 ji'4in(4)=an4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: yo3o3 nda'3a4 ku4u4 nda'3a(4)=on4 ran4 mi4chun2, ka4chi2=ra1 ji'4in(4)=an4
+[Model Output]: No dejes que se muera el niño, le dijo a la mujer.
+[Reference]: "¿De quién es tu mano, pues gatita?",
+[CHRF]: 12.384279337781683
+[BLEU]: 2.8398387225677895
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Example 2: 
+Mixtec: "sa3ña4 nda'3a(4)=on4 cabrón ña1a4 na4 ku3u2=an4", ka4chi2=ra1 ji'4in(4)=2.
+Spanish: "Deja a esa niña que se muera", me decía.
+
+Example 3: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: yo3o3 nda'3a4 ku4u4 nda'3a(4)=on4 ran4 mi4chun2, ka4chi2=ra1 ji'4in(4)=an4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: a4su3 ndi4 xa'1a4 tun4 mesa xi4xi3 ta1 kan3to4ri2 ji'4in4 ku'1ba3=ra2 ku4u(4)=a2 ka4chi2=an4 so'3o3
+[Model Output]: puso la comida sobre la mesa y luego le dijo a su suegra que se llamaba ka4chi2=an4 so'3o3
+[Reference]: Pues son las patitas de la mesa donde el cantor come con su hermana", le contestó ella.
+[CHRF]: 21.266481667466824
+[BLEU]: 4.553719184146073
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: xa143 ya1kan3, ka4chi2=ra1 ji'4in4 ku'1ba3=ra2 ndi4:
+Spanish: el niño le dijo a su hermana:
+
+Example 2: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Example 3: 
+Mixtec: Ya1 kan4 ba42 ka4chi2=o4 ji'4in(4)=a2 ku4u(4)=a2 yo'3o4 ndi3ku'3un3.
+Spanish: Así que por eso le llaman <i>yo'3o4 ndi3ku'3un3</i>.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: a4su3 ndi4 xa'1a4 tun4 mesa xi4xi3 ta1 kan3to4ri2 ji'4in4 ku'1ba3=ra2 ku4u(4)=a2 ka4chi2=an4 so'3o3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan42 i3in3 tan42 i3in3 tu'1un3 kan4 ka'4an2=ra1 tan3, ji'4in4 ku'1ba3=ra2 nda4-kwi3in(3)=an4 ka4chi2=an4, ka4chi2=ra1 ji'4in(4)=an4 ndi4
+[Model Output]: Y cada uno de ellos se llaman así, le dijo a su hermana que la mujer le dijo al hombre.
+[Reference]: A cada frase que su hermano decía ella contestaba. Luego él le preguntó,
+[CHRF]: 27.268606918430017
+[BLEU]: 2.703251334489793
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: xa143 ya1kan3, ka4chi2=ra1 ji'4in4 ku'1ba3=ra2 ndi4:
+Spanish: el niño le dijo a su hermana:
+
+Example 2: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Example 3: 
+Mixtec: Ta1 tan42 i3in3 tan42 i3in3 ti4 kan4 ndi4 ya1 xi4ko4=ri4 ba42 ya1 kan4 ka'4an2=na1 ji'4in4=ri4 ndi4
+Spanish: Y cada uno de ellos acarrean insectos muertos por eso los llaman
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan42 i3in3 tan42 i3in3 tu'1un3 kan4 ka'4an2=ra1 tan3, ji'4in4 ku'1ba3=ra2 nda4-kwi3in(3)=an4 ka4chi2=an4, ka4chi2=ra1 ji'4in(4)=an4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: yo3o3 nu'1u3 ku4u4 nu'1u(3)=un4 ran4 mi4chun2
+[Model Output]: Los dientes de los niños son pequeños.
+[Reference]: "¿De quién son tus dientes gatita?"
+[CHRF]: 27.237779726173883
+[BLEU]: 5.795599612995366
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ko1yo3 nu'1u(3)=un4.
+Spanish: Se te cayeron los dientes.
+
+Example 2: 
+Mixtec: Ba143 tu4u4 nu14u(3)=un4.
+Spanish: No puedes leer.
+
+Example 3: 
+Mixtec: Ñu'1u3 yu3ku4 ba42 kan4 ran4.
+Spanish: Sí, son espíritus de cerros.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: yo3o3 nu'1u3 ku4u4 nu'1u(3)=un4 ran4 mi4chun2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: a4su3 ndi4 bi1ka1 i3ki4 ka4chi'3i3 ña4 Ñu4la2 ji1ni(4)=an4 ku4u4=run4,ka4chi2=an4 so'3o3 chi2
+[Model Output]: fue entonces cuando el hombre se acercó y le dijo a la mujer de Ñu4la que se casaría con ella, dijo.
+[Reference]: "Pues es el peine de huesos con que Ñula se peina", contestaba ella.
+[CHRF]: 22.691213541585658
+[BLEU]: 2.769348116298872
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Example 2: 
+Mixtec: ta1 kan4 ku4u4 ta1 ku3ndu'4u4 ji'4in(4)=2" ka4chi2=an4 so'3o3 chi2, i3kan4 ja143:
+Spanish: siento que por lo bien que toca me voy a casar con él", dijo. Y continuó:
+
+Example 3: 
+Mixtec: Sa3kan4 ku4u4 tan3, ka4chi2=ra1 ndi4, ka4chi2=an4 ndi4,
+Spanish: Y así pasó, el muchacho, o mejor dicho la muchacha le dijo a la princesa,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: a4su3 ndi4 bi1ka1 i3ki4 ka4chi'3i3 ña4 Ñu4la2 ji1ni(4)=an4 ku4u4=run4,ka4chi2=an4 so'3o3 chi2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: nda4-kwi3in(3)=an4 yu'3u4 kan3to4ri2 ku'1ba(3)=en4 ndi4 kan3to4ri2 ku4u4 ta1 kan4 tan3, tan3 ña4 kan4 ndi4
+[Model Output]: los cantores se llevaron al cantor y a la muchacha, y luego llegaron.
+[Reference]: Ella le contestaba así a su hermano el cantor, porque él era un cantor y ella,
+[CHRF]: 27.486997954780012
+[BLEU]: 5.117379575399021
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Sa3kan4 ku4u4 tan3 ni1-xa1a1 ba(3)=en4 kan4, ni1-ki'3in(3)=an4 candela tan3, tan3
+Spanish: Poco después llegó su mujer y llevaba consigo una vela,
+
+Example 2: 
+Mixtec: Tan3 ti4 kwa'4a1 yu'3u4 kan4 ti4 kan4 ku4u4 machu tan3 ti4 kan4 ndi4 ti3in(3)=o4 ti4 kan4 tan3
+Spanish: Entonces debemos agarrar las abejas de boca roja y
+
+Example 3: 
+Mixtec: ku'1ba(3)=en4 kan4, ndi4 ta1 kwa'1an1 ka'3ni4=ra2 ku4u4 ta1 kan4, ni1-xa1a1 ba3 i3na2 kan4 tan3
+Spanish: o sea el hermano de la muchacha, y cuando llegaron los perros,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: nda4-kwi3in(3)=an4 yu'3u4 kan3to4ri2 ku'1ba(3)=en4 ndi4 kan3to4ri2 ku4u4 ta1 kan4 tan3, tan3 ña4 kan4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: mi4chun2 ka4chi2=ra1 ji'4in(4)=an4 ndi4 ña4 Ñu4la2 na3ni4 ku'1ba3=ra2 ku4u4=na2 na1 ba4li4 tan3
+[Model Output]: el hombre le dijo a la mujer que Ñu4la2 fue a su casa para traer el dinero.
+[Reference]: a ella él le decía gatita, pero su hermana se llamaba Ñula, eran niños pequeños
+[CHRF]: 18.399165966496064
+[BLEU]: 2.8265205879007453
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Example 2: 
+Mixtec: xa143 ya1kan3, ka4chi2=ra1 ji'4in4 ku'1ba3=ra2 ndi4:
+Spanish: el niño le dijo a su hermana:
+
+Example 3: 
+Mixtec: sa3ba3=na2 ndi4 i3ta2 chi4lu2 ka4chi2=na1 ji'4in(4)=a2, ya1 kan4 ndi4 na4
+Spanish: algunos le llaman <i>i3ta2 chi4lu2</i>, esta planta,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: mi4chun2 ka4chi2=ra1 ji'4in(4)=an4 ndi4 ña4 Ñu4la2 na3ni4 ku'1ba3=ra2 ku4u4=na2 na1 ba4li4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: nde4e4=na2 be'3e3=na2 tan3 ka'4an2=ra1 ji'4in(4)=an4 ku4u4=ña4, ku4u4=na2 na1 nda'4bi2
+[Model Output]: en la casa le dicen a esa parte que contiene las semillas, entonces eran huérfanos
+[Reference]: que jugaban en sus casas pues eran niños huérfanos.
+[CHRF]: 32.966651593439245
+[BLEU]: 3.4585921141027365
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ya1 kan4 ndi4, ku4u4=na2 na1 nda'4bi2, tan3 i3kan4 ka4chi2
+Spanish: Por eso eran huérfanos, entonces dijo ....
+
+Example 2: 
+Mixtec: ¿Sa1a3 ka'4an2=na1 ji'4in(4)=a2 kan4?
+Spanish: ¿Cómo le dicen a esa parte que contiene las semillas?
+
+Example 3: 
+Mixtec: mm, nda4-ka'3yu4=na2 be'3e3=na2 na1 sa'4an4 kan4 tan3
+Spanish: u otras cosas de la casa,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: nde4e4=na2 be'3e3=na2 tan3 ka'4an2=ra1 ji'4in(4)=an4 ku4u4=ña4, ku4u4=na2 na1 nda'4bi2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan3 ndi4 su14u3 i3in(3)=a2, nda4a2 ka1 bi4=a2 ba42 ndi4 i3in3 kwen4tu2 sa3kan4 ni1-ka'1an1 ku'1ba(3)=en4 ta1 kan3to4ri2 ji'4in(4)=an4 tiem4pu2 ku4u4=na2 na1 ba4li4 ba42,
+[Model Output]: aunque no se sabe si es cierto, es una creencia que se ha transmitido de generación en generación a lo largo del tiempo.
+[Reference]: Pero era otra cosa, era solo un juego de palabras que su hermano el cantor le enseñó a jugar cuando eran niños,
+[CHRF]: 21.963358109870345
+[BLEU]: 2.1300733682208985
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tan3 sa3kan4 ni1-ku3-nda'4bi2 ndi3xa3 bi4=na2 ndi4 i3in3 kwen4tu2 ku4u4 ba(3)=e2,
+Spanish: de verdad, al hacerse grande resultó ser tan pobre como esos animalitos, es sólo una creencia.
+
+Example 2: 
+Mixtec: sa3kan4 ndi4 ku'1un(1)=a1 ji'4in(4)=an4 tan3 ki3xi(3)=a2 mi4i4 ti4 ba42 sa4-kwa'3a3=na1 ba4li4=a2 i3ta2an2 i3sa42 tan3 ndi4
+Spanish: para que forme parte de un libro que estudiarán los niños en el futuro,
+
+Example 3: 
+Mixtec: tan3 ya1 u1bi1 kan4 ndi4 i3in3 ña'1a3 ti4 chio'1o4 ti4 ku4u4 ba(3)=e2 ji'4in(4)=a2 kan4 tan3, tan3 ji13ni2 ba3=na2 ndi4 su14u3 ya1 nda4-ka'3yu4 bi4 ba42 ndi4
+Spanish: Mientras que las otras hojas, las de clavellina y la conocida como <i>yu1ku1 ti1su4bi4</i> sólo sirven como envolturas pero no pintan los tamales ....
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan3 ndi4 su14u3 i3in(3)=a2, nda4a2 ka1 bi4=a2 ba42 ndi4 i3in3 kwen4tu2 sa3kan4 ni1-ka'1an1 ku'1ba(3)=en4 ta1 kan3to4ri2 ji'4in(4)=an4 tiem4pu2 ku4u4=na2 na1 ba4li4 ba42,
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2 na1 ta4u3ni2 nda4tu'4un4=na2 xa'1a4 na1 ba4li4 nda'4bi2, ya1 kan4 ku4u4 ndi'3i3 ba(3)=e2.
+[Model Output]: Eso cuentan los ancianos sobre la historia de la tierra, eso es todo lo que sé.
+[Reference]: así cuentan los ancianos sobre los dos hermanos huérfanos. Eso es todo.
+[CHRF]: 52.23391013562815
+[BLEU]: 17.18152967132724
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ka4chi2 na1 ta4u3ni2 nda4tu'4un4=na2 ndi4
+Spanish: Los ancianos cuentan que
+
+Example 2: 
+Mixtec: Ka4chi2 na1 ta4u3ni2 nda4tu'4un4=na2 xa'1a4=e2 ya1 ta3ta2.
+Spanish: Eso cuentan los ancianos sobre los cultivos.
+
+Example 3: 
+Mixtec: nda4tu'4un4 na1 ta4u3ni2 xa'1a4=e2, ya1 kan4 ti4 ku4u4 ndi'3i3 ba(3)=e2 ji4ni2=yu1.
+Spanish: eso es lo que platican los señores. Eso es todo lo que sé.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2 na1 ta4u3ni2 nda4tu'4un4=na2 xa'1a4 na1 ba4li4 nda'4bi2, ya1 kan4 ku4u4 ndi'3i3 ba(3)=e2.
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Constantino Teodoro na3ni4=2.
+[Model Output]: Me llamo Constantino Teodoro.
+[Reference]: Me llamo Constantino Teodoro.
+[CHRF]: 100.0
+[BLEU]: 100.00000000000004
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Constantino Teodoro na3ni4=2 tan3
+Spanish: Me llamo Constantino Teodoro.
+
+Example 2: 
+Mixtec: Constantino Teodoro.
+Spanish: Constantino Teodoro.
+
+Example 3: 
+Mixtec: Constantino Teodoro.
+Spanish: Constantino Teodoro.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Constantino Teodoro na3ni4=2.
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Sa1a3 na3ni(4)=un4?
+[Model Output]: ¿Cómo te llamas?
+[Reference]: ¿Cómo te llamas?
+[CHRF]: 100.0
+[BLEU]: 100.00000000000004
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¿Sa1a3 na3ni(4)=un4?
+Spanish: ¿Cómo te llamas?
+
+Example 2: 
+Mixtec: ¿Sa1a3 na3ni(4)=un4?
+Spanish: ¿Cómo te llamas?
+
+Example 3: 
+Mixtec: ¿Sa1a3 na3ni(4)=un4?
+Spanish: ¿Cómo te llamas?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Sa1a3 na3ni(4)=un4?
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Cincuenta y dos kwi1ya1=yu1.
+[Model Output]: Tengo cincuenta y dos años.
+[Reference]: Tengo cincuenta y dos años.
+[CHRF]: 100.0
+[BLEU]: 100.00000000000004
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Cincuenta y dos kwi1ya1=yu1
+Spanish: Tengo cincuenta y dos años.
+
+Example 2: 
+Mixtec: Cincuenta y do kwi1ya1=yu1.
+Spanish: Tengo cincuenta y dos años.
+
+Example 3: 
+Mixtec: Cincuenta y do kwi1ya1=yu1.
+Spanish: Tengo cincuenta y dos años.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Cincuenta y dos kwi1ya1=yu1.
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ¿Sa1a3 kwi1ya(1)=on4?
+[Model Output]: ¿Cuántos años tienes?
+[Reference]: ¿Cuántos años tienes?
+[CHRF]: 100.0
+[BLEU]: 100.00000000000004
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¿Ja1a3 kwi1ya(1)=on4?
+Spanish: ¿Cuántos años tienes?
+
+Example 2: 
+Mixtec: ¿Sa1a3 sa1a3 kwi1ya(1)=on4?
+Spanish: ¿Cuántos años tienes?
+
+Example 3: 
+Mixtec: ¿Sa1a3 kwi1ya(1)=on4 chi2?
+Spanish: ¿Cuántos años tienes?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ¿Sa1a3 kwi1ya(1)=on4?
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Yoloxóchitl na3ni4 ñu3u2=yu1.
+[Model Output]: Yoloxóchitl es mi casa.
+[Reference]: Mi pueblo se llama Yoloxóchitl.
+[CHRF]: 41.009317839740504
+[BLEU]: 10.400597689005304
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Yoloxóchitl
+Spanish: Yoloxóchitl.
+
+Example 2: 
+Mixtec: Yoloxóchitl ku4u4 ñu3u2=yu1.
+Spanish: Yoloxóchitl.
+
+Example 3: 
+Mixtec: Yoloxóchitl ku4u4 ñu3u2=yu1.
+Spanish: Yosolo..., Yo..., Yoloxóchitl es mi pueblo.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Yoloxóchitl na3ni4 ñu3u2=yu1.
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ¿Sa1a3 na3ni4 ñu3u2=un4?
+[Model Output]: ¿Cómo se llama tu pueblo?
+[Reference]: ¿Cómo se llama tu pueblo?
+[CHRF]: 100.0
+[BLEU]: 100.00000000000004
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¿Sa1a3 na3ni4 ñu3u2=un4 chi2?
+Spanish: ¿Cómo se llama tu pueblo?
+
+Example 2: 
+Mixtec: ¿Sa1a3 na3ni4 ñu3u2=un4 chi2?
+Spanish: ¿Cómo se llama tu pueblo?
+
+Example 3: 
+Mixtec: ¿Sa1a3 na3ni4 ñu3u2=un4? Ba'1a3 ba3.
+Spanish: ¿Cómo se llama tu pueblo? Está bien.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ¿Sa1a3 na3ni4 ñu3u2=un4?
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: An4 nda3tu'4un(4)=2 i3in3 kwen4tu2 ya3ta4 xa'1a4
+[Model Output]: Aquí voy a contar un cuento acerca de un hombre.
+[Reference]: Voy a contar un cuento acerca del
+[CHRF]: 83.58552335718427
+[BLEU]: 35.08439695638686
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: An4 nda3tu'4un(4)=2 i3in3 kwen4tu2 ya3ta4 xa'1a4 ta1, ta1 chi1tun3 ndi4
+Spanish: Aquí voy a contar un cuento acerca de un hombre envidioso,
+
+Example 2: 
+Mixtec: Na4 nda3tu'4un(4)=2 kwen4tu2 ya3ta4 ja'1a4 i3in3 ñu3u2 ndi4, ya1kan3,
+Spanish: Voy a contar un cuento sobre un pueblo,
+
+Example 3: 
+Mixtec: Ya1 nda3tu'4un(4)=2 xa'1a4 yo'4o4 ndi4
+Spanish: Esta planta sobre la que platico,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: An4 nda3tu'4un(4)=2 i3in3 kwen4tu2 ya3ta4 xa'1a4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ndi3ba'4yu1 ji'4in4, xi'4in4 cunijo, mi4i4 ti4 ba42 i13xa3 amigu ti4 ku3ni4jo2 ji'4in4,
+[Model Output]: Dicen que el conejo es bueno para tratar a los amigos del conejo.
+[Reference]: coyote y el conejo, cuando el conejo se hizo amigo con
+[CHRF]: 36.233567593397964
+[BLEU]: 6.285596338261262
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Na1 ba'14a4, ya1 kan4 ba42 ji4ni2=yu1 ji'4in4, ya1 ji'4in4 ti4 kan4.
+Spanish: Sí, la gente mala, eso es lo que sé de ese pájaro.
+
+Example 2: 
+Mixtec: Pi3lo4 ndi4 ti4 ba'1a3 ku4u4 ti4 kan4 ji'4in4, xi'4in4 na1 sa4na3 chi2 ka4chi2=na1.
+Spanish: Dicen que el zopilote es bueno para tratar a la gente loca o con demencia.
+
+Example 3: 
+Mixtec: ya1 kan4 ja4chiu4un4 ji'4in4 na1 tu'1ba3 mi4i4 ti4 ba42 ku3ni2=o4=na2,
+Spanish: Eso utilizan los rezanderos
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ndi3ba'4yu1 ji'4in4, xi'4in4 cunijo, mi4i4 ti4 ba42 i13xa3 amigu ti4 ku3ni4jo2 ji'4in4,
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: xi'4in4 tio1o4 tan3 ni1-ku3ni2 ti4, ti4 ko14chi4 ka3xi4=ri4 ku3ni4jo2 ki1bi4 ni1-jo3ndo3=ri4 contrario
+[Model Output]: No hay animal que se le parezca, es como un conejo pero al revés.
+[Reference]: el cangrejo, cuando el cocodrilo quiso comerse al conejo cuando fueron enemigos.
+[CHRF]: 18.50197609713704
+[BLEU]: 3.4585921141027365
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ko14o3 sa13ni1ku3 ti4 kan4 ku3ni2=o4=ri4, tan3 ti4 kan4 ndi4
+Spanish: No se ve en cualquier parte, es muy raro verlo, y ese animal
+
+Example 2: 
+Mixtec: Ti4 ji4ni2, ji4ni2 kwe'1e1 ku4u4 ti4 kan4 ndi4 ku3u2 ni1bi4 ji4ni2 ti4, ti4 ko1o4 tiu4un4.
+Spanish: Esa víbora indica que alguien va a morir.
+
+Example 3: 
+Mixtec: Na4 kwi4i4 ku3ni2=o4 sa1a3, nda4a2 ti4 ku4u4 ti4 ko4ndo3 ti4, ti4 chi4ndu'4u4 ndi1bi4 tan3
+Spanish: Nunca hemos visto qué animal pone los huevecillos ....
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: xi'4in4 tio1o4 tan3 ni1-ku3ni2 ti4, ti4 ko14chi4 ka3xi4=ri4 ku3ni4jo2 ki1bi4 ni1-jo3ndo3=ri4 contrario
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: kwen4tu2 yo'4o4 ndi4 i3in3 tiem4pu2 ndi4 xi4ka3, xi4ka3 ta1
+[Model Output]: Este encino es un solo tipo en temporada de calor, calor fuerte.
+[Reference]: Este cuento empieza cuando en un tiempo andaba
+[CHRF]: 23.0656627533867
+[BLEU]: 3.737437943747671
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tan3 tiem4pu2 ya1 sa4bi4 ndi4
+Spanish: en temporada de lluvia,
+
+Example 2: 
+Mixtec: Tun4 kwa4an2 yo'4o4 ndi4 i3in3 nu14u3 ku4u4 tun4 yo'4o4,
+Spanish: Este encino amarillo es un solo tipo, no hay otro,
+
+Example 3: 
+Mixtec: Tun4 i3ta2 nu14ni4 kwa'4a1 yo'4o4 ndi4
+Spanish: Este árbol llamado <i>tun4 nu14ni4 kwa'4a1</i>,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: kwen4tu2 yo'4o4 ndi4 i3in3 tiem4pu2 ndi4 xi4ka3, xi4ka3 ta1
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Lo3ren4su2 na3ni4 ta1 ka'4an2=na1 ji'4in4 ku4u4 cunijo kan4 tiem4pu2
+[Model Output]: Lorenzo dice que se llama <i>cunijo</i> en ese tiempo.
+[Reference]: señor Lorenzo, ese era el nombre del conejo en ese tiempo.
+[CHRF]: 37.14719775174197
+[BLEU]: 15.13851459876605
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: yu1ku1 ka'4an2=na1 ji'4in4 ku4u4 yu1ku1 i3ya4,
+Spanish: la planta que se conoce como <i>yu1ku1 i3ya4</i>,
+
+Example 2: 
+Mixtec: ¿Tan3 ti4 ka'4an2=na1 ji'4in4 ku4u4 ti1ku3mi4 tin3?
+Spanish: ¿Y el ave silvestre que llaman <i>ti1ku3mi4</i> o lechuza?
+
+Example 3: 
+Mixtec: Ti4 ka'4an2=na1 ji'4in4 ku4u4, ya1kan3, ¿ti1ka'3an4 tin3?
+Spanish: ¿Y el insecto llamado <i>ti1ka'3a4n</i>?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Lo3ren4su2 na3ni4 ta1 ka'4an2=na1 ji'4in4 ku4u4 cunijo kan4 tiem4pu2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2, ka4chi2 ku3ni4jo2 ji'4in4 ndi3ba'4yu1 ndi4
+[Model Output]: mosca, mosca, el conejo le dijo a la culebra
+[Reference]: El conejo le dijo al coyote,
+[CHRF]: 57.12736894958847
+[BLEU]: 14.991106946711685
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ji'4in4 ndia1ma4 ka4chi2=o4 kan4.
+Spanish: hoja de mazorca para envolverlos?
+
+Example 2: 
+Mixtec: ni'3ni4=ni42", ka4chi2, ka4chi2 ndia3ma2 so'3o3 ji'4in4 na1 kan4.
+Spanish: está muy caliente", les dijo la mosca.
+
+Example 3: 
+Mixtec: ya1 ka4chi2=na1 ji'4in(4)=a2 ji4ni2=yu1 ndi4
+Spanish: yo sé que le llaman
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2, ka4chi2 ku3ni4jo2 ji'4in4 ndi3ba'4yu1 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: xi4ka3=na2 i3in3, i3in3 paseo tan3 i3kan4 ni1-ka3chi2=ri4 ji'4in4 ta'4an4=ri4 ndi4
+[Model Output]: Pasó un rato, un rato paseando así que le dijo al hombre que estaba allí que
+[Reference]: cuando andaban en un paseo platicaban,
+[CHRF]: 21.596739286708285
+[BLEU]: 2.719665272174911
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ja143 ni1-ka3chi2=an4 ji'4in4=ra2 ndi4:
+Spanish: Entonces la mujer le dijo al hombre que
+
+Example 2: 
+Mixtec: I3kan4 na'4a1=ni42 xa4ñu1=ra1 nu14u3 ñu'3u4 tan3 i3kan4 ni1-ka3chi2=ra1 ji'4in4 ndi3ku4ku2 ndi4,
+Spanish: Ahí vio que sus huellas quedaban impresas en el polvo suelto así que le dijo a la tórtola,
+
+Example 3: 
+Mixtec: I3kan4 ni1-ya'1a3 ta1 xi4ka3 ku'1u1 ka4chi2=ra1 ji'4in4 ta1 kan4 ndi4:
+Spanish: Después de un rato pasó un hombre que había ido al campo y le dijo:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: xi4ka3=na2 i3in3, i3in3 paseo tan3 i3kan4 ni1-ka3chi2=ri4 ji'4in4 ta'4an4=ri4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: yu'1u1 ndi4 ta1 ji4ni2 tu4ni1 ko3ndo3 yu'1u1 tan3, xa1a1 i3in3 ki1bi4 ndi4 ta1, ta1 ka3ni3, ta1 ku3ni3 xi'4ñu3 ku4u4 yu'1u1 ji'4in(4)=un4
+[Model Output]: yo me voy a quedar con todas las cosas del mundo, pero no tengo dinero, no quiero trabajar contigo porque luego te vas.
+[Reference]: El conejo le dijo al coyote, "Yo voy a estudiar y algún día te seré útil".
+[CHRF]: 17.37498917059827
+[BLEU]: 3.632928877985223
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: "Ya1 yu14bi4 ki3xi3 ndo1o(3)=on4 ji'4in4 tan3 yu'1u1 ndi4 ta1, ta1 ñu'1u3 ko3ndo3 yu'1u1 tan3 yo'4o1 ndi4 ta1 yo1o4 ko3ndo3 yo'4o1".
+Spanish: "Tú te vas a quedar con todas las mujeres del mundo porque tú vas a ser la luna mientras que yo voy a ser el sol".
+
+Example 2: 
+Mixtec: "Ndi4 yu'1u1 ndi4 ta1 ku4ni2 ku'1un1 ku4u(4)=2 ji'4in(4)=un4 ndi4, ya1kan3, ki4ta3 tu(3)=un4 ja'4an1=on4 tan3
+Spanish: "Yo también quiero ir contigo porque luego te vas y
+
+Example 3: 
+Mixtec: yu'1u1 ndi4 ni1-ka1ku3=2 ndi4 ta1 yo'4o4 ku4u4 ta1 sa14-ka1ku3=ra2 yu'1u1 tan3
+Spanish: yo me salvé porque un hombre me ayudó,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: yu'1u1 ndi4 ta1 ji4ni2 tu4ni1 ko3ndo3 yu'1u1 tan3, xa1a1 i3in3 ki1bi4 ndi4 ta1, ta1 ka3ni3, ta1 ku3ni3 xi'4ñu3 ku4u4 yu'1u1 ji'4in(4)=un4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ya1 kan4 ni1-ku3u3=ri4 ndi4 ni1-xa1a1, i3in3 ki1bi4
+[Model Output]: Así que empecé a caminar, hasta que llegué.
+[Reference]: Y eso hizo el conejo, llegó un día,
+[CHRF]: 13.174436164743108
+[BLEU]: 4.196114906296549
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: i3kan4 ni1-xa1a1=ra1 i3in3 nu14u3 ñu3u2,
+Spanish: hasta que llegó a la entrada de un pueblo,
+
+Example 2: 
+Mixtec: ya1 kan4 ndi4 ya1 kan4 ni1-ku3u3 yu'1u1 ran4, xa143,
+Spanish: Así que así empecé, luego,
+
+Example 3: 
+Mixtec: i3kan4 ni1-xa1a1=na1 i3nda14 ñu3u2.
+Spanish: hasta que llegaron a un pueblo.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ya1 kan4 ni1-ku3u3=ri4 ndi4 ni1-xa1a1, i3in3 ki1bi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2 ti4, xa1 ju13ta'3an2 ti4 ndi3ba'4yu1 ya1 ku3ni4jo2 kan4 ndi4chi(2)=a2
+[Model Output]: esta planta, que encontramos en el bosque llamado <i>ku3ni4jo2</i>, crece abundantemente
+[Reference]: en que el coyote se encontró con el conejo parado en un lugar,
+[CHRF]: 26.896529394802144
+[BLEU]: 2.7076576267554477
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ju13ta'3an2=ndu1 ya1 tun4 nde'1e4 po'4li4 ka4chi2=na1 kan4
+Spanish: y encontramos la planta llamada <i>tun4 nde'1e4 po'4li4</i>,
+
+Example 2: 
+Mixtec: i3kan4 ju13ta'3an2=ndu1 yu1ku1 sa14yu2, yu1ku1 sa14yu2 ka4chi2=na1 kan4 ndi4
+Spanish: aquí encontramos la planta llamada <i>yu1ku1 sa14yu2</i>, esta planta
+
+Example 3: 
+Mixtec: ju13ta'3an2=ndu1 ya1 ko4ndo3 i3ta2 ma3lin4chi2, ya1 xa'4nu(3)=a2 ndi4
+Spanish: donde encontramos la flor de la maliche, suele crecer
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2 ti4, xa1 ju13ta'3an2 ti4 ndi3ba'4yu1 ya1 ku3ni4jo2 kan4 ndi4chi(2)=a2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi(2)=a2 ku3ni4jo2 ji'4in4 ndi3ba'4yu1 ndi4, ya3ni2=yu1 ndi4
+[Model Output]: dijo el conejo que le llamaban, le llamaban así
+[Reference]: y el conejo le dijo al coyote, "Hermano ...,
+[CHRF]: 26.561442936200613
+[BLEU]: 7.073666451977357
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 ka4chi2=na1 ji'4in(4)=a2 ji4ni2=yu1 ndi4
+Spanish: yo sé que le llaman
+
+Example 2: 
+Mixtec: Ja143 ka4chi2=ra1 ji'4in4 ya3ni2=ra1 ndi4:
+Spanish: Uno de los hermanos dijo al otro:
+
+Example 3: 
+Mixtec: ji'4in4 ndia1ma4 ka4chi2=o4 kan4.
+Spanish: hoja de mazorca para envolverlos?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi(2)=a2 ku3ni4jo2 ji'4in4 ndi3ba'4yu1 ndi4, ya3ni2=yu1 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ¿Na4chu3 i4xa(3)=on4 ndi4chi2=un4 ña1a4?, Ko14o3 chi3ñu3 i4xa3 bi4=2 ndi4, mas4tru2 ku4u(4)=2
+[Model Output]: ¿Qué estás haciendo sentado?, No haces nada, eres un maestro.
+[Reference]: "Qué haces ahí", le dijo el coyote al conejo, "No estoy haciendo nada, soy un maestro".
+[CHRF]: 32.105633169217015
+[BLEU]: 4.815861134251341
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Tan3 ka4chi2 na1 ta4u3ni2 ndi4, "¿A4chu3 i4xa(3)=on4 i4ndu'3u(4)=un4 ña1a4?"
+Spanish: Y la gente grande nos preguntaba, "¿Qué haces ahí sentado?"
+
+Example 2: 
+Mixtec: ña4 kan4 ndi4 ko14o3 nda4a2 ka1 i3in3 chi3ñu3 i4xa(3)=en4 cocina ndi4
+Spanish: ella no trabajaba, no hacía nada en la cocina,
+
+Example 3: 
+Mixtec: Ta1 nda4ka1tu'4un4 ku4u(4)=2 ndi4 sa1a3 i4xa(3)=on4 ka4ndi3chi2=un4 ndi3xi2 tan3, ¿an4 ba143 xa4xi24=un4 ya1 i3ya4?
+Spanish: Quiero preguntar si al empezar a preparar la chicha, ¿comes cosas agrias?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ¿Na4chu3 i4xa(3)=on4 ndi4chi2=un4 ña1a4?, Ko14o3 chi3ñu3 i4xa3 bi4=2 ndi4, mas4tru2 ku4u(4)=2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan3 na1kwa4chi3 yo'4o4 na'4a1=yu1 tan3 i4chi1=ni42=yu1 ta1kwi42 na4,
+[Model Output]: pero los jóvenes no me dan de beber, estoy muy sediento,
+[Reference]: "Estoy dándole clases a estos niños y ya me dio sed,
+[CHRF]: 20.172800990303234
+[BLEU]: 3.673526562988939
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 ka'4an2=ndu1 yo'4o4 tan3 na1 kwa4chi3 ndi4
+Spanish: este lugar, pero los jóvenes
+
+Example 2: 
+Mixtec: chi4chi3 na1kwa4chi3 ka4chi2 na1 ta4u3ni2 a1chi1 tan3 ndi4
+Spanish: se hierven para bañar a los niños contra la fiebre, así hacía la gente de antes,
+
+Example 3: 
+Mixtec: an4 ko14o3 ta1kwi42 ku3ni3 ma1ni(4)=un4 yu'1u1 ko'3o(3)=2 ndi4 i4chi1=ni42=yu1 ta1kwi42".
+Spanish: por favor regáleme agua para tomar porque estoy muy sediento".
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan3 na1kwa4chi3 yo'4o4 na'4a1=yu1 tan3 i4chi1=ni42=yu1 ta1kwi42 na4,
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: na4 ku14ni2=un4 na4 na'1a(1)=on4 na1kwa4chi3 yo'4o4 sa3kan4 ndi4 sa4-kwa'3a3=na2 nu14u(3)=un4, ko3ndo(3)=on4 mas4tru2
+[Model Output]: si quieres tener una familia y deseas en tu corazón ser feliz, debes trabajar mucho
+[Reference]: ¿no querrás darles clases un rato, tú vas a ser su maestro",
+[CHRF]: 18.706385462499636
+[BLEU]: 2.908317710573757
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: máscara sa3ta(4)=on4 sa3kan4 ndi4 chi3ka2=on4=a2 nu14u(3)=un4 tan3
+Spanish: compres una máscara para que te la puedas poner
+
+Example 2: 
+Mixtec: "Ko3to(3)=on4 Liasar tan3 na4 ku4ni2=un4 ko3o3 na1kwa4chi3 nu14u(3)=un4, ndi3-kwi3so(3)=on4=a2 nda'4bi2.
+Spanish: Entonces le dije, "Mira Eleazar, si quieres tener hijos debes adoptar a los niños huérfanos,
+
+Example 3: 
+Mixtec: ya1 xa1a(1)=on4 ku4u4 ba(3)=e2 kan4 na3ni2 yo'4o1 ku4ni2=un4 ndi4 sa3kan4 ko3o(3)=a2 tan3
+Spanish: un día lograrás lo que deseas, lo que anhelas en tu corazón,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: na4 ku14ni2=un4 na4 na'1a(1)=on4 na1kwa4chi3 yo'4o4 sa3kan4 ndi4 sa4-kwa'3a3=na2 nu14u(3)=un4, ko3ndo(3)=on4 mas4tru2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2 ku3ni4jo2 ji'4in4, ji'4in4 ti4 ndi3ba'4yu1
+[Model Output]: se envuelven con hojas, hojas de plátano.
+[Reference]: le dijo el conejo al coyote.
+[CHRF]: 14.572658845592606
+[BLEU]: 4.767707020457095
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tan42 ka4a4 ji'4in4, ji'4in4 yu1ku1 nda'4ba1 ka4chi2=o4 kan4 ndi4
+Spanish: son como las hojas dormilonas,
+
+Example 2: 
+Mixtec: ji'4in4 ndia1ma4 ka4chi2=o4 kan4.
+Spanish: hoja de mazorca para envolverlos?
+
+Example 3: 
+Mixtec: Ndo3-ko3to2 ndu3chi4 ji'4in4, ji'4in4 ya1 yu3xan4 i3kin4 tan3
+Spanish: Se ponen en capas la masa de frijol y la masa mezclada de calabaza y harina de maíz,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2 ku3ni4jo2 ji'4in4, ji'4in4 ti4 ndi3ba'4yu1
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan3 na4 kwa'1an1=yu1 tan3 in3ka4ni24 tan3 ni1-ndo1o(3)=on4 na'4a1=on4=na2 ndi4, ka14ni3 nde3e(4)=on4 ndu3ku2 sa1ta4=na2 ndi4
+[Model Output]: y cuando se acaben las cosas que están en la mesa, las pongan en su lugar en los libros
+[Reference]: "Una vez que me haya ido, cuando te quedes enseñándoles no los golpees muy fuerte,
+[CHRF]: 19.02161049701641
+[BLEU]: 2.7076576267554477
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tan3 na4 ka'4an2 na1 ji4ni2 tu4ni1 ji'4in4=na2 ndi4 ya1 kan4 nda3-ndu3ku4=na2 nu14u3 tu3tu2 tan3 ndi4
+Spanish: y sus maestros les piden que las busquen en los libros
+
+Example 2: 
+Mixtec: i3ta2an2 i3sa42 na4 kwa'1an1 tan3 ni1-ndi'3i3 xa'1a4=e2 ndi4
+Spanish: para que cuando se acaben
+
+Example 3: 
+Mixtec: Ta13ba4=na2 ndi3ku'3un3 kan4 tan3 ni1-nda3ta4=na2=ri4 ndi4 nda1 kwa'1an1 ni1i4 ñu'3u4 nde4e4=ri4.
+Spanish: Cuando sacaron esos sapos los abrieron y soltaron toda la sangre en el suelo.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan3 na4 kwa'1an1=yu1 tan3 in3ka4ni24 tan3 ni1-ndo1o(3)=on4 na'4a1=on4=na2 ndi4, ka14ni3 nde3e(4)=on4 ndu3ku2 sa1ta4=na2 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: kwe4e2 ni3 ka3ni(3)=un4 ndu3ku2 ja1ta4=na2 ndi4 kwe'1e1 na3kwi42=na1, na1kwa4chi3 ka1a3
+[Model Output]: Cuando el perro ladra mucho en la noche, porque tiene hambre.
+[Reference]: golpéalos despacito porque estos niños son muy bravos",
+[CHRF]: 17.103292668801423
+[BLEU]: 3.673526562988939
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ya1, na4 na1kwa4chi3 ku4u4=na2 tan3 xa4ku3=ni42=na1 ndi4
+Spanish: Si los niños lloran mucho,
+
+Example 2: 
+Mixtec: na1 kwa4chi3 kwa1nda3a3 bi3tin3 ndi4 nda4-ka1tu'4un4=ndu2=na1
+Spanish: porque les preguntamos a los jóvenes de ahora
+
+Example 3: 
+Mixtec: na1kwa4chi3 na4tu2 ni1-ta3ba4 kwe'1e1 kwa14ku3 ji'4in4=na2 chi1.
+Spanish: Cómo hacen para curar a los niños cuando les afectan estos espíritus.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: kwe4e2 ni3 ka3ni(3)=un4 ndu3ku2 ja1ta4=na2 ndi4 kwe'1e1 na3kwi42=na1, na1kwa4chi3 ka1a3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2=ri4 ji'4in(4)=a2 ndi3ba'4yu1 kan4, ba'1a3 ba3 ya3ni2
+[Model Output]: les llamamos <i>ndi3ba'4yu1</i>, pero no sé.
+[Reference]: le dijo el conejo al coyote. "Está bien, hermano".
+[CHRF]: 11.331931337442116
+[BLEU]: 3.1251907639724417
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 ka4chi2=o4 yu1ku1 i3ta2 xa4ngi2 kan4 ji'4in(4)=a2 ndi4
+Spanish: como las flores de la planta llamada <i>i3ta2 ka3xan4gi2</i>,
+
+Example 2: 
+Mixtec: I3ta2 i4i4 ka4chi2=o4 ji'4in(4)=a2 kan4.
+Spanish: Les decimos flores estériles.
+
+Example 3: 
+Mixtec: ya1 ka4chi2=na1 ji'4in(4)=a2 ji4ni2=yu1 ndi4
+Spanish: yo sé que le llaman
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2=ri4 ji'4in(4)=a2 ndi3ba'4yu1 kan4, ba'1a3 ba3 ya3ni2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja143 ndo13ko3o4=ri4 ndu3ku2 nda'3a4 ya1 ndi3ba'4yu1 kan4 tan3
+[Model Output]: se secan las hojas de las varas más largas
+[Reference]: Así que el conejo dejó una vara con el coyote y
+[CHRF]: 11.148058178836493
+[BLEU]: 0.0
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 na4ni24 nda'3a4 kan4 tan3 ndu3ku(2)=a2 ndi4
+Spanish: que tiene varas más largas,
+
+Example 2: 
+Mixtec: i3kan4 tu'4un4=ndu2 ndu3ku2 kan4 tan3
+Spanish: entonces arrancábamos esa planta
+
+Example 3: 
+Mixtec: Ba'1a3 ki3ni3 ta'4yu1 yu1ku1 kan4 tan3 nda143 ndu3ku2 te'4e4 ti4 ndo4o13 ya1 ndu3ku(2)=a2.
+Spanish: Se pudren rápido y quedan las puras varas.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja143 ndo13ko3o4=ri4 ndu3ku2 nda'3a4 ya1 ndi3ba'4yu1 kan4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ke13e3 ba3 ku3ni4jo2 kwa'1an1=ri4, i3kan4 ka4chi2 ka'4an4 ndi3ba'4yu1 ndi4
+[Model Output]: y luego el conejo continuó su camino, y se encontró con un árbol grande.
+[Reference]: se fue. Entonces el coyote pensó,
+[CHRF]: 18.2862550700394
+[BLEU]: 3.4585921141027365
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: i3kan4 kwa'1an1=ra1 sa3kan4,
+Spanish: Y continuó caminando,
+
+Example 2: 
+Mixtec: ti1xin3 yu14ti3 kan4 kwa'1an1=ri4, tan42 ka4chi2 ta1 che4e13 yo'4o4 ndi4
+Spanish: dentro de la arena hacen su camino, tal como dice este señor,
+
+Example 3: 
+Mixtec: ka4chi2=o4 ndi3ka4 yu1ngui32 ka1a3, ba'1a3 i3tun4 kan4 ndi4,
+Spanish: la madera sirve
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ke13e3 ba3 ku3ni4jo2 kwa'1an1=ri4, i3kan4 ka4chi2 ka'4an4 ndi3ba'4yu1 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: an4 ndi3xa3 ba42 kwe'1e1 na3kwi42 na1kwa4chi3 ka1a3 su14u3 na1 ko4chun3 bi4 tu3 ku4u4=na2 ndi4 na1 ko14chun3 ku4u4=na2,
+[Model Output]: si no hay comida los niños lloran porque no saben agarrar pescado, pero ustedes sí saben,
+[Reference]: "Será cierto que estos niños son muy bravos si no son grandes, son bien pequeños".
+[CHRF]: 24.143960687274376
+[BLEU]: 4.832054932113933
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ko14chun3=ndo4 ti3in3=ndo4=ri4 na1 ko4chun3 ku4u4 na1, ndu14su3 ku4u4 mi3i4 ba3 na1 kan4 ndo'4o1 ndi4
+Spanish: ustedes no saben agarrar camarones, esos muchachos que van es porque saben agarrar camarones, pero ustedes no,
+
+Example 2: 
+Mixtec: Tan3 su14u3 na1 ya3ta4 ba'1a3 ku4u4 na1 kan4 su14u3 na1 nda4ku3 ba'1a3 ku4u4=na2 ndi4
+Spanish: Pero esa gente no era gente buena porque
+
+Example 3: 
+Mixtec: Ya1, na4 na1kwa4chi3 ku4u4=na2 tan3 xa4ku3=ni42=na1 ndi4
+Spanish: Si los niños lloran mucho,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: an4 ndi3xa3 ba42 kwe'1e1 na3kwi42 na1kwa4chi3 ka1a3 su14u3 na1 ko4chun3 bi4 tu3 ku4u4=na2 ndi4 na1 ko14chun3 ku4u4=na2,
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: kwe4e2 kwe4e2 ni3 ka4ni3=ri4 ndu3ku2 ja1ta4 yo3ko2 ndia'14na3 ka4chi2=o4 kan4 ndi4
+[Model Output]: Las abejas están picando a la persona llamada <i>yo3ko2 ndia'14na3</i> en el lugar.
+[Reference]: Empezó a golpear levemente al panal de un tipo de avispas grandes conocidas como <i>yo3ko2 ndia'14na3</i>,
+[CHRF]: 34.80392100870911
+[BLEU]: 33.901889296215735
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ti4 yo3ko2 ndia'14na3 kan4 ndi4 xi4ni2=yu1
+Spanish: Yo conozco las avispas llamadas <i>yo3ko2 ndia'14na3</i>.
+
+Example 2: 
+Mixtec: yo3ko2 tejón kan4 ndi4 mi4i4 ka4ni3=ri4 ndi4
+Spanish: esas avispas <i>yo3ko2</i> tejón, donde pican
+
+Example 3: 
+Mixtec: Yo3ko2 ndia'14na3 ku4u4 ti4 kan4 ndi4 ti4 ndo3o3 ku4u4=ri4.
+Spanish: Sí, esas son las <i>yo3ko2 ndia'14na3</i>, son grandes.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: kwe4e2 kwe4e2 ni3 ka4ni3=ri4 ndu3ku2 ja1ta4 yo3ko2 ndia'14na3 ka4chi2=o4 kan4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: o4ra2 su4ku4=ri4 ndu3ku2 ja1ta4=e2 tan3 si4so1 ndi4 ti4 ni'4i13 ti1xin3, ya1 ni'4i13 ti1xin3 ku4u4 ndi'3i3 ba3 ndia'14na3 kan4 i4-ndu'3u4=a2
+[Model Output]: ahora el perro está comiendo el hueso que encontró, y el hueso le está haciendo daño en el estómago porque es muy grande para él.
+[Reference]: cuando golpeaba ael panal se oía un ruido que hacían las avispas por dentro al molestarse.
+[CHRF]: 22.17740909464437
+[BLEU]: 1.6504045595709425
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Yo3ko2 ndia'14na3 ku4u4 ti4 kan4 ndi4 ti4 ndo3o3 ku4u4=ri4.
+Spanish: Sí, esas son las <i>yo3ko2 ndia'14na3</i>, son grandes.
+
+Example 2: 
+Mixtec: ta1 lu3u3 ka1a3 ndi4 is1tin4=ra2 xa4xin13=ra2 tan3 sa4-yu'3bi2=ra1 ti4 ti14in3 ndi4 ti14in3 ku4u4=ri4 i4-ndu'3u4 tan3,
+Spanish: este niño está apretando su nariz y espantando al ratón que está aquí,
+
+Example 3: 
+Mixtec: Tan3 i3kan4 ndu4-ba'1a3 ti1xin3=na2 na4tu2 na1, ya1kan3, ni1-ti14bi3 ti1xin3 ku4u4=na3.
+Spanish: Así se le cura el estómago al niño si la leche le ha hecho daño.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: o4ra2 su4ku4=ri4 ndu3ku2 ja1ta4=e2 tan3 si4so1 ndi4 ti4 ni'4i13 ti1xin3, ya1 ni'4i13 ti1xin3 ku4u4 ndi'3i3 ba3 ndia'14na3 kan4 i4-ndu'3u4=a2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: nde3e4 ka1 su13ku4=ri4 ndu3ku2 si1ki4=a2 tan3 ni1-ke3e3 ba3 ti4 kan4 ka13ni3=ri4=a2 ndi3ba'4yu1 kan4 tan3
+[Model Output]: no debemos acercarnos a esos lugares porque si nos pican esas abejas nos pueden matar.
+[Reference]: Cuando golpeó más fuerte el panal las avispas salieron y picaron al coyote y
+[CHRF]: 16.554537382832056
+[BLEU]: 0.0
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1kan3 ti4 xu4xa3 ku4u4 ndi'3i3 ba3 ti4 kan4 tan3 ni14-xi3kwe4nda2=e4=ri4 tan3 ka13ni3=ri4 yo4o4 ndi4
+Spanish: todas las larvas ya son adultas. Si no tenemos cuidado y nos llega a picar una de esas avispas
+
+Example 2: 
+Mixtec: tiem4pu2 ndu4ta'3an2 ke3e3 ba3 ti4 kan4 ke4e4=ri4.
+Spanish: porque salen cuando deben de salir.
+
+Example 3: 
+Mixtec: tan3 ya1 ba4li4 na4 ka3ni3=ri4=a2 ndi4 ka'3ni4=ri4=a3, ya1 kan4 ba42 i4xa3 ti4 tio1ko4 i1in1 kan4 tan3
+Spanish: pero si llegaran a picar a los niños los mata. Eso es lo que hacen esas hormigas <i>tio1ko4 i1in1</i>.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: nde3e4 ka1 su13ku4=ri4 ndu3ku2 si1ki4=a2 tan3 ni1-ke3e3 ba3 ti4 kan4 ka13ni3=ri4=a2 ndi3ba'4yu1 kan4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tu4u24=a2 sa3kan4 kwa'1an(1)=e1 ni1-xa1a(1)=e1 nda1 yu3bi2 ya1 i4-nde4e4=ri4 ja1ta4=e2 ka4ni3=ri4=a2
+[Model Output]: Se echó a rodar hasta que llegó al arroyo y llegan a tomar el agua.
+[Reference]: éste rodó hasta el arroyo por el dolor que le provocaron las avispas al picarle.
+[CHRF]: 24.60915804894377
+[BLEU]: 3.8275613602956104
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tu4u24 be4la2 sa3kan4 kwa'1an(1)=en4 ni1-xa1a(1)=en4 nda1 yu3bi2, i3kan4 ja143
+Spanish: Se echó a rodar hasta que llegó al arroyo, entonces,
+
+Example 2: 
+Mixtec: ya1 kan4 nde4e4=ri4 ja1ta4=e2 xi'4i4=ri4 ta1kwi42 ba3 tan3 ndi4 a1su3
+Spanish: llegan a tomar el agua, pero
+
+Example 3: 
+Mixtec: i1ta3 mi4i4 kwa'1an(1)=e4 sa3kan4 tan3 xa1a(1)=e4 ya1 Na3mi4 Sa4ki3 ka1a3,
+Spanish: del río ya casi para llegar al paraje <i>Na3mi4 Sa4ki3</i> o Salto de la Mona,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tu4u24=a2 sa3kan4 kwa'1an(1)=e1 ni1-xa1a(1)=e1 nda1 yu3bi2 ya1 i4-nde4e4=ri4 ja1ta4=e2 ka4ni3=ri4=a2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i3kan4 ka4chi2=ri4 so'3o3 ndi4, ya'4a13=ni42, ya'4a13=ni42 ba3ta(4)=on4 Lo3ren4su2 ndi4 su14u3 na1kwa4chi3 ku4u4 na1 yo'4o4 ndi4
+[Model Output]: uno de los hermanos dijo, "Lorenzo, Lorenzo, ven aquí, hay algo que tiene mucho poder."
+[Reference]: Entonces el coyote dijo, "Eres un gran mentiroso Lorenzo, éstos no eran niños,
+[CHRF]: 24.90330271016754
+[BLEU]: 8.461633959345022
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ka4chi2=na1 ndi4, yo3o3 ta1 ku4u4 ta1 yo'4o4 ndi4 ko4chun3=ni42=ra1.
+Spanish: Y la gente comenzó a hablar, ¿Qué es este muchacho que tiene mucho poder?
+
+Example 2: 
+Mixtec: tan3 i3kan4 ka4chi2=ra1 so'3o3 ndi4, "Bi3tin3 ndi4
+Spanish: luego uno de los hermanos dijo, "Ahora,
+
+Example 3: 
+Mixtec: ndu4chi3 kwa'4a1 bi1ko4 ndi4 ka'4an2 nda14ku2=ri4 ndi4 sa1bi4 nda3-ndi3ta3 ka4chi2=ri4 so'3o3.
+Spanish: cuando hay nubes pintadas de rojo, anuncian el retiro de la lluvia.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i3kan4 ka4chi2=ri4 so'3o3 ndi4, ya'4a13=ni42, ya'4a13=ni42 ba3ta(4)=on4 Lo3ren4su2 ndi4 su14u3 na1kwa4chi3 ku4u4 na1 yo'4o4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ki3ti4 ku4u4 ti4 yo'4o4 tan3, bi3tin3 ndi4 ya'4a13=ni42 ni1-ja3xa'4an2 i3in4=2 ni1-i3xa3=ri4
+[Model Output]: mataba a los animales del campo, y de la noche a la mañana se había convertido en un hombre muy rico.
+[Reference]: éstos eran animales ponzoñosos y me hicieron mucho daño",
+[CHRF]: 24.8277654626199
+[BLEU]: 2.1671320168371846
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¡Ti4 ya'4a13=ni42 i'4na4 ku4u4=ri4 ma42!
+Spanish: ¡Es de muy mal agüero, hermano!
+
+Example 2: 
+Mixtec: ta1 nda'4bi2 i4chi3 ku4u4=ra2 tan3 bi3tin3 ndi4 i3in3 ñu3u42 tan3 ni1ki4tu3 ndi4 ya'4a13=ni42 bi4ka3=ra2.
+Spanish: cuando era un hombre pobre y de la noche a la mañana se había hecho rico.
+
+Example 3: 
+Mixtec: kwa'1a4=ni42 ki3ti4 ja'4ni24=a2 tan3 bi3tin3 ndi4
+Spanish: mataba muchos animales y ahora
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ki3ti4 ku4u4 ti4 yo'4o4 tan3, bi3tin3 ndi4 ya'4a13=ni42 ni1-ja3xa'4an2 i3in4=2 ni1-i3xa3=ri4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi(2)=a2 este ya1 ndi3ba'4yu1 ndi4chi(2)=a2 yu3bi2
+[Model Output]: Dice que el hombre tiene dos hijos.
+[Reference]: dijo el conejo, digo este, el coyote cuando llegó al arroyo.
+[CHRF]: 9.882625524272195
+[BLEU]: 3.102160927976006
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Sa3kan4 ka4chi(2)=a2 ka'4an(2)=e2.
+Spanish: Así dice.
+
+Example 2: 
+Mixtec: I4yo(2)=a2 yu3ku4 nda'4bi2.
+Spanish: Existe en ese cerro.
+
+Example 3: 
+Mixtec: Tan3 ndi3chi(2)=a2 yo'4o4 ndi4 u1ni1 xi1ki4 ku4u4 ya1 ku4ndu3 ndi3chi(2)=a2,
+Spanish: Y su vaina tiene tres esquinas,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi(2)=a2 este ya1 ndi3ba'4yu1 ndi4chi(2)=a2 yu3bi2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i3kan4 kwa'1an1 ba3=ri4, ndi4kun2=ri4=a2, nda4-ndu3ku4=ri4=a2 ku3ni4jo2 kan4 mi4i4 ba42 kwa'1an(1)=e1 ku4u4=ri4 amigu
+[Model Output]: Son los que llevan, se enojan, buscan al conejo que lleva a su amigo.
+[Reference]: Entonces, el coyote se fue en busca del conejo, que según él era su amigo.
+[CHRF]: 33.19871176095628
+[BLEU]: 10.25719738163393
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ti4 kan4 ku4u4=ri4 ndi4-kwi3so3=ri4 ndi3kin4=a2 kan4 kwa'1an(1)=e1 i3nga2 xia4an4.
+Spanish: Las chuparrosas son las que llevan las semillas a otras partes.
+
+Example 2: 
+Mixtec: I3ta2 sa3in4, i3kan4 ba42 kwa'1an(1)=e1 kan4.
+Spanish: Flor de olote. Son las que llevan a la iglesia.
+
+Example 3: 
+Mixtec: kwa'1an1=run4 ñu'3u4 ndi4 lu14u3=ri4 kwa1nda3a3 nda4-ndu3ku4=ri4=a2 nda4a(2)=e2 ba42 ni1-ku3u3 ya1 kan4 ndi4 kwa'1an(1)=e1 kan4 ñu'3u4.
+Spanish: se alborotan buscando al responsable de cortar el árbol.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i3kan4 kwa'1an1 ba3=ri4, ndi4kun2=ri4=a2, nda4-ndu3ku4=ri4=a2 ku3ni4jo2 kan4 mi4i4 ba42 kwa'1an(1)=e1 ku4u4=ri4 amigu
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tu3ku3 xia4an4 ni1-xa1a1=ri4 ndi4chi2=ri4, ti4nda2a2=ri4 yu1u4 ndi4chi2=ri4, ti4 ku3ni4jo2 kan4
+[Model Output]: cuando vio a los venados, les dijo a los venados, no corran más.
+[Reference]: El conejo llegó a otro lugar, ahí estaba parado deteniendo una piedra.
+[CHRF]: 14.549759522918656
+[BLEU]: 3.21858262703621
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Tan3 ka4ti1in1 ñu'3u4 ka4ni3 i3su2 ja'1a4=ri4 ndi4chi2=ri4, ta4xin24 ndi4chi2=ri4.
+Spanish: Pero el venado estaba parado cerca y golpeaba la pata contra el suelo.
+
+Example 2: 
+Mixtec: Tan3 na4 ti4 xi4nu3 ku4u4=ri4 ku3ni2=o4=ri4 ndi4 ba143 xi4nu3=ri4 tan42 ti1chi4 ndi4
+Spanish: Si alguna vez lo vemos correr no lo hace como las iguanas sino que
+
+Example 3: 
+Mixtec: i3kan4 ni1-nda3-xa2a2=ri4, ni1-nda3-xa2a2=ri4 ka'4an2=ri4 ji'4in4 se'1e3=ri4 ti4 ba4li4 ndi4,
+Spanish: cuando llegó donde estaban sus cachorros les dijo,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tu3ku3 xia4an4 ni1-xa1a1=ri4 ndi4chi2=ri4, ti4nda2a2=ri4 yu1u4 ndi4chi2=ri4, ti4 ku3ni4jo2 kan4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: xa1a1 tu3kwa3 ndi3ba'4yu1 kan4, a4chu3 i4xa(3)=on4 ya3ni2
+[Model Output]: "¿Por qué quieres esos libros, amigo?"
+[Reference]: Y ahí llegó el coyote y le preguntó, "¿Qué haces hermano?".
+[CHRF]: 10.626645268410265
+[BLEU]: 5.477194682220922
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¿Tan3 na4chu3 i4xa3=ri4?
+Spanish: ¿Y qué hacen?, preguntábamos.
+
+Example 2: 
+Mixtec: Sa3kan4 i4xa(3)=e3.
+Spanish: Eso es todo.
+
+Example 3: 
+Mixtec: "¿A4chu3 a3sa(3)=on4 ya1 hijo?".
+Spanish: "¿Para qué quieres esos trajes hijo?".
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: xa1a1 tu3kwa3 ndi3ba'4yu1 kan4, a4chu3 i4xa(3)=on4 ya3ni2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ya3ni2 ndi4 ko14o(3)=a2 ba'1a3 i4yo2 ndi4 ya1 yu14bi4 i1yo3 nda3ñu'4u4 tan3 yu1u4 yo'4o4 ti4nda2a2=yu1 ndi4 na4 ku'1un(1)=a1 yo'4o4 ndi4
+[Model Output]: No sirve para hacer nada porque es muy difícil de encontrar sus flores.
+[Reference]: "Hermano, hay malas noticias, se puede perder el mundo, estoy deteniendo esta piedra porque si esta piedra se rueda
+[CHRF]: 16.172742613445497
+[BLEU]: 1.4931531916267482
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Tan3 nda4a2 ka(1)=e1 ndi4 ko14o(3)=a2 ba'1a3 bi4=a2 ndi4
+Spanish: Pero no sirve para otra cosa,
+
+Example 2: 
+Mixtec: tan3 ndi4 tan42 ka'4an2=yu1 yo'4o4 ndi4 ko14o(3)=a2 ba'1a3=run4 a1chi1 ndi4 tun4 i3ñu4 ba3 ku4u4=run4.
+Spanish: pero como digo sus flores no se usan porque tiene muchas espinas.
+
+Example 3: 
+Mixtec: ko14o(3)=a2 ba'1a3=e2 ku'1un(1)=a1 ji'4in4=na2 pa3san4tu2 bi4 tan3 ndi4
+Spanish: no sirve para llevar al camposanto pero
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ya3ni2 ndi4 ko14o(3)=a2 ba'1a3 i4yo2 ndi4 ya1 yu14bi4 i1yo3 nda3ñu'4u4 tan3 yu1u4 yo'4o4 ti4nda2a2=yu1 ndi4 na4 ku'1un(1)=a1 yo'4o4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ya1 yu14bi4 ndi4 nda3ñu'4u(4)=a2 na4 ku'1un(1)=a1 yu1u4 yo'4o4 ja1ta4=e2 ni1nu1
+[Model Output]: aquí es donde se encuentra la casa de esta señora que está al borde del precipicio.
+[Reference]: se va a perder el mundo, eso va a pasar si esta piedra se rueda".
+[CHRF]: 21.01874209592316
+[BLEU]: 2.8378637222629375
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 yu14bi4 ndo'4o4 ba42 yo'4o4".
+Spanish: aquí es un lugar donde se sufre", le contestaron.
+
+Example 2: 
+Mixtec: ya1 kan4 ndi4 ni1-ka'1yu(1)=a1 ku'1un(1)=a1 ji'4in(4)=an4 sa'4an4 yo'4o4 tan3
+Spanish: todo esto lo está registrando esta señora para
+
+Example 3: 
+Mixtec: I1yo3=ni42 ku'1un(1)=o4 ni1nu1.
+Spanish: Podemos caer al precipicio.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ya1 yu14bi4 ndi4 nda3ñu'4u(4)=a2 na4 ku'1un(1)=a1 yu1u4 yo'4o4 ja1ta4=e2 ni1nu1
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ya1 kan4 ndi4 ya1 yo'4o4 ndi4chi2=yu1 ti4nda2a2=yu1 ndi4 ko3to3 nda3ñu'4u(4)=a2 yu14bi4 chi2
+[Model Output]: Ese es el río que está cerca de la casa donde vive el anciano.
+[Reference]: "Por eso estoy deteniendo esta piedra para que no se pierda el mundo".
+[CHRF]: 15.21091796355617
+[BLEU]: 3.235537081118379
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3tun4 ki13nda2a2=e4 ndu1u4 yo'4o4 ndi4 ya1 ji4ni2=yu1 na3ni4=run4 ndi4
+Spanish: Este árbol cuyos frutos colectamos aquí yo sé que se llama
+
+Example 2: 
+Mixtec: Ya1 ka'4an2=na1 ndi4 ku4u(4)=a2 i3chi4 ti1tu'4un4 ndi4 ya1 kan4,
+Spanish: Ese rezo contra el coraje es, este:
+
+Example 3: 
+Mixtec: yu1ku1 tun4 i3tun4 ndi4chi2 yu'3u4 yu3bi2 yo'4o4 ndi4
+Spanish: este árbol a orilla de este río,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ya1 kan4 ndi4 ya1 yo'4o4 ndi4chi2=yu1 ti4nda2a2=yu1 ndi4 ko3to3 nda3ñu'4u(4)=a2 yu14bi4 chi2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: na'3a2=on4 ti3nda2a2=lu(3)=un4=a2 ya3ni2 na4 ku'1un1=lu(3)=2 ko'3o(3)=2 ta1kwi42 tan3 ki3xa2a2=yu1 sa3kan4 ndi4 ke3e(3)=on4 ku'1un(1)=un4
+[Model Output]: "Ve a la tienda a comprar mientras yo caliento el agua para que tomes, dijo mamá."
+[Reference]: "Ven a detenerlo tantito hermano, voy a ir a tomar agua y cuando yo llegue te vas".
+[CHRF]: 21.04744887160932
+[BLEU]: 3.0629261337336597
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: "Sa3kan4 ko3o(3)=on4 ya3ni2, i1chi(1)=un4 ta1kwi42 tan3 ku3ni2=un4 ndi4
+Spanish: "Qué bueno hermano, vas a seguir con sed,
+
+Example 2: 
+Mixtec: "Yo'4o4 ka3ndu'4u4 na'3a2=on4 na4 ku'1un1 sa4-sa1a4=2 chi3ko4la2 ko'3o(3)=e4 sa3kan4 ndi4, ya1kan3, ki3xa2a2=yu1".
+Spanish: "Acuéstate acá un rato mientras voy por chocolate para que tomemos,
+
+Example 3: 
+Mixtec: "Na4 ku4ni2 ko'3o(3)=an4 ta1kwi42 tan3 ja4-sa1a(4)=on4 ta1kwi42 sa3kan4 ndi4 ko'3o3 si'3i(4)=o4, yu'1u1 ndi4 na4 ku'1un1=yu1 sa3kan4 ndi4 ki3xa2a2=yu1 kwa3a4".
+Spanish: "Si nuestra mamá tiene sed calienta el agua para que tome, yo llegaré en la tarde", le dijo.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: na'3a2=on4 ti3nda2a2=lu(3)=un4=a2 ya3ni2 na4 ku'1un1=lu(3)=2 ko'3o(3)=2 ta1kwi42 tan3 ki3xa2a2=yu1 sa3kan4 ndi4 ke3e(3)=on4 ku'1un(1)=un4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i3kan4 ni1-ndo3ko3o4 tu3ku3=ri4=a2 ndi3ba'4yu1 kan4 tu3ku3 ni3 ti4nda2a(2)=e2 yu1u4 ka'4nu3 ndi4chi(2)=a2 ndi4, ku3tu3 sa14ña(4)=on4=e2 ndi4 na4 ki3xi(3)=a2 ni1nu1 ndi4 ka'3ni4=a2 yo4o4 tan3 nda3ñu'4u(4)=a2 yu14bi4 a3sa(3)=e2
+[Model Output]: El hombre que está vendiendo condimentos en el mercado dice que no tiene mucho, pero que si lo cuida bien, puede durar hasta el próximo año.
+[Reference]: Así que el conejo volvió a dejar al coyote deteniendo la piedra, "No vayas a dejar de detenerla porque si se rueda nos va a matar, va a hacer que se pierda el mundo".
+[CHRF]: 21.226135297818622
+[BLEU]: 1.5328423826284165
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Tan3 ndi4 ya1 ti1na3na4 nde'3e4 kan4 na4 ku4ni2=o4 ku3ni2=o4 i3ni(2)=a2 ndi4 na4 ni1-ki3nda2a(2)=e4=e2 ndi4 nde3e4=ni42 i3ni(2)=a2 ndi4 ba143 ta'4yu1 a1chi(1)=a1.
+Spanish: Pero ese jitomate morado, si lo cortamos, aguanta mucho, no se pudre pronto.
+
+Example 2: 
+Mixtec: Ya1 ta3ta2 kan4 tu3ku3 ndi4 ya1 kan4 ba42 ba'1a3 tan3 ndi4 su14u3 ya1 ja14(3)=e2 ndi4 ku4u(4)=a2 ya1 ta3ta2 tan3 i4yo2 sa4ka2 bi4=a2 ndi4 ko14o(3)=a2 ndi4 mi4i4 nda4-ka3ni3 bi4=na(2)=e2 ba42 i4yo(2)=a2.
+Spanish: La doméstica sí sirve como condimento, pero tampoco se da en abundancia, sólo hay donde la siembran y cuidan.
+
+Example 3: 
+Mixtec: "Ya1 ki'3in(3)=a2 ni1i4 ndi4 ndu3xi4, ku14ni(2)=a2 ndu3xi4 ka'4nu3 ndi4 tian42 ndu3xi4 xa3ku4 ndu3ku4=ndo4 tan3 sa3kan4 ndi4
+Spanish: Entonces el rezandero contesta, "El presente debe ser una gallina, no precisa ser gallina grande, puede ser una gallina mediana,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i3kan4 ni1-ndo3ko3o4 tu3ku3=ri4=a2 ndi3ba'4yu1 kan4 tu3ku3 ni3 ti4nda2a(2)=e2 yu1u4 ka'4nu3 ndi4chi(2)=a2 ndi4, ku3tu3 sa14ña(4)=on4=e2 ndi4 na4 ki3xi(3)=a2 ni1nu1 ndi4 ka'3ni4=a2 yo4o4 tan3 nda3ñu'4u(4)=a2 yu14bi4 a3sa(3)=e2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja1na'3a4 ba3 kwa'1an1 ku3ni4jo2 kan4 ja1 i4xa14bi(2)=a2 loco kan4 ndi4chi(2)=a2 ti4nda2a(2)=e2 yu1u4 tan3
+[Model Output]: no se puede crecer sin la ayuda de un loco, dice la gente.
+[Reference]: El conejo se fue y ya había tardado mucho y el coyote loco ya estaba cansado de tanto detener la piedra,
+[CHRF]: 14.043236129058839
+[BLEU]: 2.4642841067740786
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: kwa'1an1 ku3xa(3)=e2 kan4 ndi4 ndu1u4 kwi4i24 ba42 i4in4 nda'3a4=run4.
+Spanish: cuando crezcan serán frutos verdes.
+
+Example 2: 
+Mixtec: nda4a(2)=e2 ni1-ndo'3o(3)=a2 tan3 mi4i4 ndi4chi(2)=a2 kan4 i4ndu'3u4 yu3nu4 chi2.
+Spanish: y la gente dice que ahí donde estaba ese santo ahí se ubica una de esas trampas, dice la gente.
+
+Example 3: 
+Mixtec: ya1 kwa'1an1 ka'1yu1 ba42 tan3 sa3kan4 ndi4 ndo1o3=a2,
+Spanish: es para eso que estamos hablando de ella,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja1na'3a4 ba3 kwa'1an1 ku3ni4jo2 kan4 ja1 i4xa14bi(2)=a2 loco kan4 ndi4chi(2)=a2 ti4nda2a(2)=e2 yu1u4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja4i3ni(2)=a2 ndi4, an4 ndi3xa3 bi4 ki3xi3 yu1u4 yo'4o4 si1ki(4)=o4 tan3 nda3ñu'4u(4)=a2 yu14bi4 na4, na4 sa3ña(4)=e4 ya1 ndi4 ja1, ja1na'3a4=ni42 kwa'1an1, ta1 Lo3ren4su2
+[Model Output]: Por eso, no es fácil encontrar a alguien que sepa todo, pero lo intentaremos, dijo Lorenzo.
+[Reference]: y pensó, "Será cierto que esta piedra se va a rodar y perder el mundo si la suelto, ya Lorenzo tardó mucho".
+[CHRF]: 21.41982010336964
+[BLEU]: 2.111608952822173
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 tan3 kwa'1an1, ta1nda3a2 ni1kwa3a4 ndi4 ja1 ba'1a3=ni42 ba3 ndi3xi4.
+Spanish: Para cuando llegó la tarde los elotes ya estaban buenos.
+
+Example 2: 
+Mixtec: Ya1 ndi3xa3 ba43, ya1 ndi3xa3 ba42 a1chi1 ndi4 ndi'14i(4)=a2 nda4-ka'3an4 bi(4)=o4 ya1 nda4tu'4un(4)=e4 a1chi1 ndi4 ka4ni24=ni42 ku4u4 kwen4tu(2)=a2 tan3, yu'1u1 ndi4
+Spanish: Es cierto, es cierto, porque no nos acordamos de todo al ir platicando, porque esa majagua tiene muchos usos.
+
+Example 3: 
+Mixtec: ka1a3 ki3xi3 ndi'3i(3)=a2 ndi4, na4 kwa4ñu3 yo4o4 ba3 ku4u4=na2, na1 ki'4bi3 lu3chi'4i2 ku4ni2 ya1 kan4 ndi4 sa4-nda3ñu'4u(4)=e4 ki1bi4 tiem4pu2 yo4o4 tan3
+Spanish: Toda esta información va a quedar registrada. Por eso estamos ocupando nuestro tiempo,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja4i3ni(2)=a2 ndi4, an4 ndi3xa3 bi4 ki3xi3 yu1u4 yo'4o4 si1ki(4)=o4 tan3 nda3ñu'4u(4)=a2 yu14bi4 na4, na4 sa3ña(4)=e4 ya1 ndi4 ja1, ja1na'3a4=ni42 kwa'1an1, ta1 Lo3ren4su2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: kwe4e2 kwe4e2, kwe4e2 ni1-sa3ña4=ri4 yu1u4 kan4 tan3
+[Model Output]: Rápidamente, rápidamente, rápidamente se mueven sobre la tierra,
+[Reference]: Empezó a soltar la piedra poco a poco con mucho miedo y
+[CHRF]: 11.491990206272687
+[BLEU]: 3.42209762272661
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ka4ya2=na1 ndu1u4 kan4 tan3
+Spanish: las recogen y
+
+Example 2: 
+Mixtec: I3kan4 tan3
+Spanish: Luego ....
+
+Example 3: 
+Mixtec: i4yo2 i3chi4=ri4 ja1ta4 i3tun4 kan4 tan3
+Spanish: Hacen caminos sobre la corteza de los árboles,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: kwe4e2 kwe4e2, kwe4e2 ni1-sa3ña4=ri4 yu1u4 kan4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: nda4a2 ba42 ku'1un(1)=a1 kan4 ni1nu1, ni14-xa'1an(1)=e1 ni1nu1 ndi4 yu1u4 xa4ñu1 ku4tu24 ba42 kan4 ni1-i3xa3 ki'4bi3 xu4mi4=ri4 ji'4in(4)=a2 kan4 tan3 ni1-ndo3ko3o4=ri4=a2 ji'4in4 yu1u4
+[Model Output]: no se puede llevar a cabo, porque no hay, no se puede hacer nada, pero se los llevan para que se los coman, para que se los coman en el pueblo.
+[Reference]: se dio cuenta que la piedra no se rodó, se quedó en el mismo lugar, estaba bien puesta, el conejo lo había engañado para que detuviera la piedra.
+[CHRF]: 24.66529760012095
+[BLEU]: 4.3092610555723345
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 ni1-i3xa3 colectar=ña4 ba42 ku'1un(1)=a1 ji'4in(4)=an4
+Spanish: las colectó para llevar
+
+Example 2: 
+Mixtec: xa4xi24=a2 kan4 ba3 yo3o3 ba42 ku4u4=ri4 ji'4in(4)=a2 ndi4, ndi4 ya1 kwa'1an1=ri4 ji'4in4 ba43.
+Spanish: para que se los coman, no sabemos, pero se llevan a los animalitos muertos.
+
+Example 3: 
+Mixtec: ya1 kan4 ndi4 ni1-ka'1yu(1)=a1 ku'1un(1)=a1 ji'4in(4)=an4 sa'4an4 yo'4o4 tan3
+Spanish: todo esto lo está registrando esta señora para
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: nda4a2 ba42 ku'1un(1)=a1 kan4 ni1nu1, ni14-xa'1an(1)=e1 ni1nu1 ndi4 yu1u4 xa4ñu1 ku4tu24 ba42 kan4 ni1-i3xa3 ki'4bi3 xu4mi4=ri4 ji'4in(4)=a2 kan4 tan3 ni1-ndo3ko3o4=ri4=a2 ji'4in4 yu1u4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja143 ni1-ke3e3=ri4 kwa'1an1 ba3=ri4 i3kan4 ka4chi2 ti4, ti4 coyote kan4 so'3o3 xa'1an1=ri4 nu14u3 ti4 ko14chi4 ndi4
+[Model Output]: Así que el perro se llevó el plato, el coyote se comió la comida del cerdo.
+[Reference]: Entonces, el coyote fue a visitar al cocodrilo y le dijo,
+[CHRF]: 26.18214577305112
+[BLEU]: 7.994607499472017
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ni1-ke3e3=ri4 kwa'1an1=ri4 ja143 ni1-xa1a1 ba3=ri4 ni1-ki'3in3 ba3=ri4 ko'1o4 ya1 ndi4chi2 nu14u3 novio, kwa'1an1 ji'4in4=ri4 ku3xi3=ri4.
+Spanish: Así que el perro se fue y se llevó el plato del novio.
+
+Example 2: 
+Mixtec: tio1ko4 si'14bi3 kan4 ndi4 na4 nda13-na3ma3 ti4 kan4 be'3e3=ri4 xi1ta1 i'3nu3=ri4 kwa'1an1=ri4 ndi4,
+Spanish: esas <i>tio1ko4 si'14bi3</i> cuando cambian de hormiguero,
+
+Example 3: 
+Mixtec: Ti4 tio1ko4 si'14bi3 ka4chi2=o4 ka1a3 ndi4 na4 ja1 ni1-ke3e3 ti4 ka1a3 kwa'1an1=ri4 tan3 xi'4nu13=ri4 nu14u3 ñu'3u4 ndi4
+Spanish: Estas hormigas llamadas <i>tio1ko4 si'14bi3</i> cuando salen de su hormiguero se extienden sobre el suelo,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja143 ni1-ke3e3=ri4 kwa'1an1 ba3=ri4 i3kan4 ka4chi2 ti4, ti4 coyote kan4 so'3o3 xa'1an1=ri4 nu14u3 ti4 ko14chi4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ya'4a13=ni42 i4xa3 ki'4bi3 ta1 Lo3ren4su2 yo'4o4 yu'1u1 ndi4 so'3o3 i13xa3=ra2 ji'4in(4)=2 ndi4 na4 na'1a1=yu1 ko3ndo(3)=2 mas4tru2
+[Model Output]: Ayer me encontré con Lorenzo y me dijo lo que me había hecho el maestro.
+[Reference]: "El hermano Lorenzo me ha engañado varias veces, la primera vez me dijo que le enseñara a unos niños como maestro,
+[CHRF]: 24.57827384427431
+[BLEU]: 3.904338088231786
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: "¿Tan3 nda4a(2)=e2 ba42 ndi4ni2=ndo4 ba1xi3=ndo4?, ta1 si1so3 yu'1u1 ndi4 so'3o3 ni1-i3xa3=ra2 ji'4in(4)=2".
+Spanish: "¿Qué problemas les trae aquí? mi suegro me hizo lo siguiente".
+
+Example 2: 
+Mixtec: ya1 yu'1u1 ndi4 kwi14i3 ka'1an1=yu1 ji'4in(4)=a2 ta1tan4 ba42 ndi4
+Spanish: pero yo no sé si se usa patra ese fin,
+
+Example 3: 
+Mixtec: ba'1a3 yu'1u1 ndi4 ba14sa4 ki'4in(4)=2 cuenta nda4a(2)=e2 ba42 ko3ndo'3o(3)=2 ndi4 ko14o3 chiu3un3 i4xa3 yu'1u1 ran4
+Spanish: Yo no pensé que me fuera a pasar algo porque yo no hago cosas malas,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ya'4a13=ni42 i4xa3 ki'4bi3 ta1 Lo3ren4su2 yo'4o4 yu'1u1 ndi4 so'3o3 i13xa3=ra2 ji'4in(4)=2 ndi4 na4 na'1a1=yu1 ko3ndo(3)=2 mas4tru2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka13ni3=ni42 ki3ti4 yu'1u1 ndi4 su14u3 na1kwa4chi3 ku4u4=na2 ndi4 ki3ti4 ku4u4=ri4 ka13ni3=ri4 yu'1u1 tan3, tu3ku3 ni1-ndo3ko3o4=ra2 yu'1u1 ndi4
+[Model Output]: dicen que es un insecto y no lo pueden jugar porque es un animal que dicen que es peligroso, pero no lo han visto.
+[Reference]: y las avispas me picaron, no eran niños sino avispas, otra ocasión me dejó,
+[CHRF]: 16.551332524338775
+[BLEU]: 1.9011755113058346
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: su14u3 tio1ko4 ku4u4=ri4 ya1 nu14u3 yu'1u1 ndi4 ki3ti4 te'1e4 sa1ta4 ku4u4=ri4 ran4.
+Spanish: no son hormigas, para mí no son hormigas porque tienen su caparazón.
+
+Example 2: 
+Mixtec: su14u3 ti4 kwe'1e1 ku4u4=ri4 ti4 ba'1a3 ku3si4ki24 ba3 na1kwa4chi3 ku4u4=ri4.
+Spanish: y no son bravos, los niños los pueden jugar.
+
+Example 3: 
+Mixtec: Ka4chi2=na1 ndi4 ki3ti4 ku4u4=ri4 kwa14ku3 ku4u4=ri4 ndi4ka2 mi4i4 ka4na3 ta1kwi42 ka4chi2=na1 tan3 ndi4
+Spanish: Dicen que es un animal y vive ahí donde nace el agua pero,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka13ni3=ni42 ki3ti4 yu'1u1 ndi4 su14u3 na1kwa4chi3 ku4u4=na2 ndi4 ki3ti4 ku4u4=ri4 ka13ni3=ri4 yu'1u1 tan3, tu3ku3 ni1-ndo3ko3o4=ra2 yu'1u1 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: na4 ti3nda2a2=yu1 yu1u4 ndi4 ya1 yu14bi4 nda3ñu'4u4 na4, na4 ki3xi(3)=a2 kan4 ni1nu1 ka4chi2=ra1, ni3=a2 kan4 ni14-ki3xi3 ndi4 ya1 ndi4chi2 ku4tu24 ba42 kan4
+[Model Output]: En la tienda venden cosas, y yo compré un poco de carne, también compré un poco de frijoles.
+[Reference]: deteniendo una piedra porque si esa piedra se rodaba se iba a perder el mundo y esa piedra no se rodó, estaba bien firme sobre la tierra".
+[CHRF]: 14.093049318905479
+[BLEU]: 1.6731117480311728
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 kan4 ndi4 ya1 kan4 ndi4 ya1 ja4xi24 ko14ni4 ti4 ba42 kan4 a1chi1 ndi4 ko14o(3)=a2 ka3xi4=ri4 nda'4bi2 ku4u4=ri4 tan3
+Spanish: Los elotes de esa planta son las que aprovechan las urracas porque no tienen nada de comer,
+
+Example 2: 
+Mixtec: Ya1 kan4 ndi4 ya1, ya1 xi4ka3 ndi4chi(2)=a2 kan4 ndi4 ya1, tu4u2=yu1 ndi4 ya1 i4yo(2)=a2 kan4 ndi4 ba3,
+Spanish: Soñar con la iglesia a lo lejos, yo creo que quizá
+
+Example 3: 
+Mixtec: Ya1 i4xi'4ñu3=na2 ba42 kan4 tan3 ya1 ka4chi2=o4 ko4ndo3 ñu1u4 ndi3xi4 kan4 ndi4 ya1 ndi4xi3=na2 o4ra2 ku4un4 sa1bi4 ba42 kan4.
+Spanish: Lo tejen, y el otro llamado <i>ñu1u4 ndi3xi4</i> lo usan para protegerse de la lluvia cuando llueve.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: na4 ti3nda2a2=yu1 yu1u4 ndi4 ya1 yu14bi4 nda3ñu'4u4 na4, na4 ki3xi(3)=a2 kan4 ni1nu1 ka4chi2=ra1, ni3=a2 kan4 ni14-ki3xi3 ndi4 ya1 ndi4chi2 ku4tu24 ba42 kan4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i13xa3 ki'4bi3=ra2 yu'1u1 tan3 bi3tin3 ndi4 ke13e3=ra2 kwa'1an1=ra1, tan3 bi3tin3 ku4ni2=yu1 ndi4 yo'4o1 ku4u4 ta1 ko3to(3)=on4 sa1a3 a3sa(3)=on4 ji'4in4=ra2 ndi4
+[Model Output]: "Lo que yo quiero es que me des maíz bueno para sembrar."
+[Reference]: "Me engañó y se fue a esconder, ahora quiero que busques la manera de agarrarlo, porque me engañó,
+[CHRF]: 19.63717087846794
+[BLEU]: 2.330576016181471
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: "Ndi4, ya1kan3, yo'4o1 ku4u4 ta1 ko3to(3)=on4 sa1a3 ko3o3 ji'4in4 ba3=ra2 ndi4, ya1kan3, ta3xi(3)=un4 nu1ni4 ba'1a3 nda'3a4 ba3=ra3".
+Spanish: "Yo creo que debes darle maíz bueno para sembrar".
+
+Example 2: 
+Mixtec: ba3 ka4chi2 ka'4an4=ra2 ndi4 nda'4bi2=ni42 ka'1an1=yu1 ji'4in4=ra3, bi3tin3 ndi4 yo'4o4 ndo1o(3)=on4".
+Spanish: quizá pensó que me le voy a humillar, pero no, ahora te vas a quedar".
+
+Example 3: 
+Mixtec: "Ko14o(3)=a2 kwa'1a4 ku4ni2=yu1 ndi4, ya1 ku4ni2=yu1 bi3tin3 ndi4
+Spanish: "No quiero gran cosa, lo que yo pido es que
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i13xa3 ki'4bi3=ra2 yu'1u1 tan3 bi3tin3 ndi4 ke13e3=ra2 kwa'1an1=ra1, tan3 bi3tin3 ku4ni2=yu1 ndi4 yo'4o1 ku4u4 ta1 ko3to(3)=on4 sa1a3 a3sa(3)=on4 ji'4in4=ra2 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ya1 kan4 ku4u4 maña ni1-i3xa3=ra2 ji'4in(4)=2, tan3 ko14o3=ra2 ndu4-ku3ni2=yu1 ka4chi2, ndi3ba'4yu1 kan4 so'3o3 ji'4in4 ko14chi4
+[Model Output]: "Me siento mal por lo que te hizo, pero no puedo dejar de pensar en lo que dijo tu esposo."
+[Reference]: esos son los engaños que me hizo y no lo he podido encontrar", le dijo el coyote al cocodrilo.
+[CHRF]: 22.36291321143501
+[BLEU]: 2.6459536968224975
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ta1 kan4 ku4u4 ta1 ku3ndu'4u4 ji'4in(4)=2" ka4chi2=an4 so'3o3 chi2, i3kan4 ja143:
+Spanish: siento que por lo bien que toca me voy a casar con él", dijo. Y continuó:
+
+Example 2: 
+Mixtec: i3kan4 ja143 ka4chi2=an4 so'3o3 ji'4in(4)=an4 ndi4:
+Spanish: entonces le dijo a su suegra:
+
+Example 3: 
+Mixtec: ya1 chi1tun3 ni1-i3xa3=ra2 ji'4in(4)=un4 ndi4, mi3i4 ba3=ra2 ku4u4 ta1 nda13ba(3)=e2 kan4 ji'4in4
+Spanish: "La maldad que te hizo se le volvió en contra,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ya1 kan4 ku4u4 maña ni1-i3xa3=ra2 ji'4in(4)=2, tan3 ko14o3=ra2 ndu4-ku3ni2=yu1 ka4chi2, ndi3ba'4yu1 kan4 so'3o3 ji'4in4 ko14chi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan3 ti4, ti4 ku3ni4jo2 ña1a4 ndi4, i4yo2 mi4i4 xi'4i4=ri4 ta1kwi42 tan3
+[Model Output]: pero, no pueden ver, hay agua en el rocío.
+[Reference]: Y el conejo tenía un lugar a donde iba a beber agua y
+[CHRF]: 15.749828065288366
+[BLEU]: 3.7052472057637615
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ti4 ndi'4i4 xa'1a4 ku4u4=ri4 mi4i4 i4yo2 ta1kwi42 i4yo2 ti4 kan4.
+Spanish: se están acabando, viven donde hay agua.
+
+Example 2: 
+Mixtec: ya1 kan4 nde4e4=ri4 ja1ta4=e2 xi'4i4=ri4 ta1kwi42 ba3 tan3 ndi4 a1su3
+Spanish: llegan a tomar el agua, pero
+
+Example 3: 
+Mixtec: yu4yu4 kan4 xi'4i4=ri4 ta1kwi42 tan3, a1chi1 ndi4 su14u3 ti4 xa4xi24 ña'1a3 ndo3o3 bi4 ku4u4 ti4 kan4 ndi4
+Spanish: y toman el rocío pegado a las hojas, no comen cosas grandes,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan3 ti4, ti4 ku3ni4jo2 ña1a4 ndi4, i4yo2 mi4i4 xi'4i4=ri4 ta1kwi42 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan3 ya1 tio1o4 ndi4 i13xa3 amigu=ri4 ji'4in(4)=a2 kan4 ndi4 amigu ba3 tio1o4 ku4u(4)=a2, nda13sa3=ri4=a2 ku3ni4jo2 kan4 ndi4 ja1 i4yo2 amigu=na1
+[Model Output]: y le da un regalo a su amigo porque su amigo le dio un conejo, y por eso es su amigo.
+[Reference]: y se hizo amigo del cangrejo, se hicieron amigos los dos.
+[CHRF]: 24.084021195251797
+[BLEU]: 2.328734903585348
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tan3 ya1 ka'4an2=na1 ji'4in(4)=a2 ku4u(4)=a2 yu3ba2 nu14u3 kwi4in2 kan4 ndi4
+Spanish: y le dicen <i>yu3ba2 nu14u3 kwi4in2</i> porque
+
+Example 2: 
+Mixtec: ya1 kan4 ku3u3=ra2 ji'4in(4)=a2 kan4 tan3, nda13-ndi3ko4 na1 kan4 ndi4
+Spanish: hacía eso a su compadre porque
+
+Example 3: 
+Mixtec: Mm, yo3o3 ku4u(4)=a2 ko4ndo3 ta1tan4 ji'4in(4)=a2 kan4 ndi4, na'3a4=ni42 ni1-ku'3u2=yu1.
+Spanish: Sí, les voy a decir cuál es la cura para esa enfermedad, yo estuve enfermo por mucho tiempo.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan3 ya1 tio1o4 ndi4 i13xa3 amigu=ri4 ji'4in(4)=a2 kan4 ndi4 amigu ba3 tio1o4 ku4u(4)=a2, nda13sa3=ri4=a2 ku3ni4jo2 kan4 ndi4 ja1 i4yo2 amigu=na1
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i13xa3a4 ba3, i4xa3 ti4 ko14chi4 kan4 nda4-ndu3ku4=ri4 sa1a3 ko3o3 tan3 ka3ku'1un3 ku3ni4jo2 kan4 ndi4
+[Model Output]: No se puede ver, pero se dice que buscan presas que les sirvan de alimento, y ese animal es muy raro.
+[Reference]: Entonces el cocoderilo comenzó a buscar la mabera de atrapar al conejo,
+[CHRF]: 19.921569861166525
+[BLEU]: 1.8709718017288024
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ti4 ndu4ku4 sa1a3 ko3o3 tan3 ku3-ta3ku2 ku4u4 ti4 kan4.
+Spanish: buscan presas que les sirvan de alimento.
+
+Example 2: 
+Mixtec: ya1 kan4 nda4tu'4un4 na1 ta4u3ni2 xa'1a4=ri4 ndi4 ti4 kan4 ndu3ku4=na2 sa3kan4 ndi4
+Spanish: Los señores grandes cuentan que se debe buscar ese animal para
+
+Example 3: 
+Mixtec: ko14o3 sa13ni1ku3 ti4 kan4 ku3ni2=o4=ri4, tan3 ti4 kan4 ndi4
+Spanish: No se ve en cualquier parte, es muy raro verlo, y ese animal
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i13xa3a4 ba3, i4xa3 ti4 ko14chi4 kan4 nda4-ndu3ku4=ri4 sa1a3 ko3o3 tan3 ka3ku'1un3 ku3ni4jo2 kan4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ke1ta3=ri4 ta1kwi42 ndi4ka2=ri4 tan3, ni1-xa1a(1)=e1 ku3ni4jo2 kan4 tu3u(3)=a2 nda'3a4=e2 ko'3o(3)=a2 ta1kwi42
+[Model Output]: fueron a buscar su veneno, le dijo al conejo que no le daría más agua.
+[Reference]: el cocodrilo se metió al agua y cuando el conejo llegó a tomar agua,
+[CHRF]: 21.20288266835466
+[BLEU]: 3.4197980307804725
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: "Nda14-kwa'1a(3)=on4=a2 nda'3a4=2 tan3 sa3kan4 tu3 yu'1u1 ba3 ndi4 ta14ba4 ka(1)=e1 ta1kwi42 ko'3o(3)=on4", ka4chi2=ra1.
+Spanish: "Si no me lo entregas no te daré más agua para que tomes", le dijo.
+
+Example 2: 
+Mixtec: an4 ya1 yu'3u4=ri4 ke4e4 ta1kwi42 ndi4, an4 ya1 ba13bi2 nda'3a4=ri4 kan4 ke4e4 ta1kwi42 xa1tu1 tan3
+Spanish: no sé bien si lo sacan de la boca o de alguna otra parte del cuerpo, sacan un líquido venenoso.
+
+Example 3: 
+Mixtec: kwa'1an1 ba3=ri4 ja1ta4 ta1, ni1-xa1a1 ba3=ri4 mi4i4 ba42 ndi4ka2 ta1
+Spanish: fueron a donde estaba su dueño,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ke1ta3=ri4 ta1kwi42 ndi4ka2=ri4 tan3, ni1-xa1a(1)=e1 ku3ni4jo2 kan4 tu3u(3)=a2 nda'3a4=e2 ko'3o(3)=a2 ta1kwi42
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tan3 ni1-ti'3nu3=ri4 nda'3a4=e2 ja143 ka4chi(2)=a2 ji'4in4=ri4 ndi4
+[Model Output]: El hombre le dijo a su esposa que no se preocupara.
+[Reference]: el cocodrilo le agarró la mano al conejo y el conejo le dijo,
+[CHRF]: 16.4897695309565
+[BLEU]: 5.733218298943755
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ja143 ka4chi2 be4lu2 ji'4in4=ra2 ndi4:
+Spanish: Cuando el hombre llegó su suegro le dijo:
+
+Example 2: 
+Mixtec: ja143 ka4chi2=an4 ña4 si'4i2=ra1 ji'4in4=ra2 ndi4
+Spanish: Entonces su mujer le dijo,
+
+Example 3: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tan3 ni1-ti'3nu3=ri4 nda'3a4=e2 ja143 ka4chi(2)=a2 ji'4in4=ri4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: nda'4bi2=un4, nda'3a4 bi4=2 ti13in(3)=un4 ka4chi2 ka'4an(4)=on4, su14u3 nda'3a4=2 ba42 ndi4 ya1 yo'4o4 bi4 ku4u4 nda'3a4 ndi3xa3 ya1 ko4ndo3 nda'3a4=2
+[Model Output]: hay un árbol que se llama <i>ti13in(3)<i/>, sus hojas son como las de un árbol que se llama <i>ya1 yo'4o4<i/>.
+[Reference]: "Pobre amigo, piensas que me agarraste la mano, en realidad mi mano es ésta".
+[CHRF]: 14.23994570782637
+[BLEU]: 1.2413584734794654
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Nda'3a4 ko'4o1 ndi4 nda'3a4 kwa'1a4 ba3 ko4ndo3 nda'3a4=run4 ndi4
+Spanish: Las ramas son abundantes, ramifican mucho ....
+
+Example 2: 
+Mixtec: nda'3a4 nda'3a4 ya1 ko4ndo3 i3tu2 ba3 xi4yo13=a2 ya1 ndi3chi2 i3tu2 ka4chi2=o4 kan4, tan3 ndi4
+Spanish: hay un frijol que se trepa a la milpa,
+
+Example 3: 
+Mixtec: ya3bi4 ka'4an2=na1 ji'4in(4)=a3, tan42 i4in4 ya1 ko4ndo3 ya3bi4 xa'1a1 i4yo2 nda'3a4=i3tun4 ka4chi2=o4
+Spanish: la gente le llama <i>ya3bi4<i/>, se parece a las <i>ya3bi4 xa'1a1<i/> que hay en los árboles
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: nda'4bi2=un4, nda'3a4 bi4=2 ti13in(3)=un4 ka4chi2 ka'4an(4)=on4, su14u3 nda'3a4=2 ba42 ndi4 ya1 yo'4o4 bi4 ku4u4 nda'3a4 ndi3xa3 ya1 ko4ndo3 nda'3a4=2
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja1 yo'4o4 ni'4i4=ri4 i3tun4 i4chi1, su3tu'4un4 i3tun4 i4chi1 tan3 ni1-tu3u(3)=a2, tu13u(3)=a2 ya1 ko4ndo3 ku3ni4jo2 kan4
+[Model Output]: aquí está el árbol conocido como <i>i3tun4 i4chi1</i>, y el árbol <i>i3tun4 i4chi1</i> que se encuentra en el lugar llamado <i>tu3u(3)=a2</i>, encontró un conejo muerto.
+[Reference]: Y el conejo tomó un pedazo de vara seca y la acercó al agua,
+[CHRF]: 17.22540222320298
+[BLEU]: 1.0072487110349273
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: tan42 ka3chi2 ja3 na1 ta4u3ni2 yo'4o4 ndi4 i3tun4=run4 ndi4 tan42 ku4ni2 ko3o3 tun4 is1ta4 i4chi1
+Spanish: como dicen estos señores este árbol se parece al llamado <i>tun4 is1ta4 i4chi1</i>
+
+Example 2: 
+Mixtec: i3ta2 ba42, ndu1u4 i3tun4 ba42, yo'4o4 ju13ta'3an2 tu3ku(3)=an4 ya1 ko4ndo3
+Spanish: estamos colectando flores, frutos, y encontró
+
+Example 3: 
+Mixtec: ka1a3 ni1-ki3nda2a2 ña4 sa'4an4 yo'4o4 ndu1u4 i3tun4 is1ta4 i4chi1,
+Spanish: y aquí colectó esta señora el fruto del árbol conocido como <i>i3tun4 is1ta4 i4chi1</i>,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja1 yo'4o4 ni'4i4=ri4 i3tun4 i4chi1, su3tu'4un4 i3tun4 i4chi1 tan3 ni1-tu3u(3)=a2, tu13u(3)=a2 ya1 ko4ndo3 ku3ni4jo2 kan4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ta1kwi42 tan3, tan3 ti'13nu3 ba3=ri4 i3tun4 kan4 tan3 nda'3a4 ndi3xa(3)=e2 kan4 sa13ña4=ri4 tan3
+[Model Output]: Los pájaros, que anidan en los árboles, comen insectos que viven en ellos.
+[Reference]: y el cocodrilo agarró la vara inmediatamente soltando la mano del conejo,
+[CHRF]: 14.040337270109879
+[BLEU]: 2.445593937240363
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: kwa1nda3a(3)=e2 nda'3a4 i3tun4 tan3 xa4a4 i3ta2
+Spanish: está trepado al árbol y tiene flores
+
+Example 2: 
+Mixtec: ti4 mi4li2 kan4 ndi4 nda'3a4 i3tun4 i4yo2 ti4 kan4 tan3
+Spanish: Esos insectos llamados <i>ti4 mi4li2</i> viven en los árboles y
+
+Example 3: 
+Mixtec: i4yo2 i3chi4=ri4 ja1ta4 i3tun4 kan4 tan3
+Spanish: Hacen caminos sobre la corteza de los árboles,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ta1kwi42 tan3, tan3 ti'13nu3 ba3=ri4 i3tun4 kan4 tan3 nda'3a4 ndi3xa(3)=e2 kan4 sa13ña4=ri4 tan3
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ki'3in(3)=un4 si'14bi3 ka'3a(4)=on4 ka3xi(4)=un4 ka4chi2=ri4 ji'4in(4)=a2 ya1 ko14chi4 tan3 kwa'1an1 ba3=ri4
+[Model Output]: El perro te pidió que lo llevaras a su casa.
+[Reference]: luego el conejo le dijo, "Come estiércol", y saltó lejos del agua y se fue.
+[CHRF]: 9.590672980811773
+[BLEU]: 1.6536434015815746
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¿Sa1a3 i13xa3=ri4 ji'4in(4)=un4?
+Spanish: ¿Qué enfermedad te provocó?
+
+Example 2: 
+Mixtec: kwa'1an1=ri4 ji'4in(4)=a2 ya1 kan4 ndi4 ti4 ka1a3 ndi4 tio1ko4 ku4u4=ri4 tan3 ndi4 i3in3 ja4chi4ñu3=ri4.
+Spanish: para llevarlas a su casa, así que estas hormigas son unidas y saben ponerse de acuerdo.
+
+Example 3: 
+Mixtec: I3kan4 ka4chi2=ri4 ji'4in4=ra2 ndi4, "Na'3a2=on4 a3sa(3)=on4=a2 ma1ni4 ji'4in(4)=2
+Spanish: Y la serpiente le dijo, "Ven, hazme un favor,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ki'3in(3)=un4 si'14bi3 ka'3a(4)=on4 ka3xi(4)=un4 ka4chi2=ri4 ji'4in(4)=a2 ya1 ko14chi4 tan3 kwa'1an1 ba3=ri4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2 ti4 ko14chi4 ji'4in4=ri4 ndi4, "Kwa'4an2 na'3a2 Lo3ren4su2, nda'3a4=2 i4yo2 ba(3)=on4.
+[Model Output]: Y la víbora le dijo, "Hola Lorenzo, ven aquí.
+[Reference]: Y el cocodrilo le dijo, "Ándale Lorenzo, vete, no tardaré en agarrarte".
+[CHRF]: 29.71510120454149
+[BLEU]: 16.822066033408436
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ka4chi2=ri4 ji'4in4=ra2 ndi4, "Na'3a2=on4 a3sa(3)=on4=a2 ma1ni4 ji'4in(4)=2
+Spanish: Y la serpiente le dijo, "Ven, hazme un favor,
+
+Example 2: 
+Mixtec: ke4e4=ri4 ndi4 ta1nda1 ko1o4 kwa'4a1 ke4e4 ji'4in4=ri4 ka4chi2=na1.
+Spanish: dicen que salen tantas chicatanas que hasta expulsan víboras rojas.
+
+Example 3: 
+Mixtec: ti4 i4yo2 xa'1a4 i4yo2 nda'3a4 ku4u4=ri4, tan3 ndi4 ko14o3 i4nu4 ka4chi2=na1 ji'4in4=ri4.
+Spanish: pues tiene extremidades, le llaman <i>ko14o3 i4nu4</i>.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2 ti4 ko14chi4 ji'4in4=ri4 ndi4, "Kwa'4an2 na'3a2 Lo3ren4su2, nda'3a4=2 i4yo2 ba(3)=on4.
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Nda'3a4=2 i4yo2 ba(3)=on4, ba143 ji4ni2=un4 nda4a2 ku'1un(1)=un4 ndi4 nda'3a4=2 i4yo2 ba(3)=on4",
+[Model Output]: Se quiebra, por eso lo enterraron.
+[Reference]: "Como quiera te tendré en mis manos, no tienes escapatoria, ya te agarraré",
+[CHRF]: 13.008727731795311
+[BLEU]: 1.5821934551541403
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ¿An4 ji14ni2=un4, an4 ji4ni2 ba'1a(3)=on4 nda4a2 yu1ku1 ba42 kan4?
+Spanish: ¿Conoces bien esas hojas?
+
+Example 2: 
+Mixtec: I4yo2 ba13bi2, ba13bi2 i4yo2 nda'3a4=e2 kan4 ndi4 ta'4nu1 ba(3)=e2 kan4,
+Spanish: Tiene coyunturas, por eso se quiebra.
+
+Example 3: 
+Mixtec: "Na4 ku'1un(1)=o4 ji'4in4=ndu2 ndi1ku1nda42 ji4ni2=un4 nda4a2 ba42 tan3 na4 ku'1un(1)=o4".
+Spanish: "Vamos inmediatamente, llévanos al lugar donde lo enterraron".
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Nda'3a4=2 i4yo2 ba(3)=on4, ba143 ji4ni2=un4 nda4a2 ku'1un(1)=un4 ndi4 nda'3a4=2 i4yo2 ba(3)=on4",
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4chi2 ko14chi4 ji'4in(4)=a2 ku3ni4jo2 kan4 ni1-ke3e(3)=a2 kwa'1an(1)=e1.
+[Model Output]: flores amarillas lo registró para eso.
+[Reference]: le dijo el cocodrilo cuando el conejo se fue.
+[CHRF]: 9.734676533004071
+[BLEU]: 4.278179264606695
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3ta2 i4i4 ka4chi2=o4 ji'4in(4)=a2 kan4.
+Spanish: Les decimos flores estériles.
+
+Example 2: 
+Mixtec: i3ta2an2 i3sa42, ya1 kan4 ni1-ka'1yu(1)=a1 kwa'1an(1)=e1 ji'4in(4)=an4.
+Spanish: en el futuro, para eso lo registró.
+
+Example 3: 
+Mixtec: Ti4 kan4 ni1-ka'1an(1)=e1 ko3o3 ya1 ku3xi(3)=a2 chi1.
+Spanish: Sí, el señor dijo que el espíritu quiso sangre de ese animal.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4chi2 ko14chi4 ji'4in(4)=a2 ku3ni4jo2 kan4 ni1-ke3e(3)=a2 kwa'1an(1)=e1.
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: Tu3ku3 i3chi4 ba1xi3 tu3ku(3)=a2 ko'3o(3)=a2 ta1kwi42
+[Model Output]: La música que viene después no es de color rojo.
+[Reference]: En otra ocasión llegó el conejo a tomar agua.
+[CHRF]: 12.996807839213332
+[BLEU]: 3.7477767366779213
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 ba1xi3 ndi'3i3 tu3ku(3)=e3.
+Spanish: Sí, ahí vienen después las otras músicas.
+
+Example 2: 
+Mixtec: Ko14o(3)=a2 i4xa(3)=e3, ni3 ba14ja4 ka4ni3 tu3ku(3)=a2 ndu3xi4 tu3ku3.
+Spanish: No les hacen nada a los pollos, no son venenosos para los pollos.
+
+Example 3: 
+Mixtec: ¿Tan3 an4 ko14o(3)=a2 ta13ku2 kwi4i24?
+Spanish: ¿Y no hay de esos chapulines que son de color verde?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: Tu3ku3 i3chi4 ba1xi3 tu3ku(3)=a2 ko'3o(3)=a2 ta1kwi42
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i3kan4 ka4ndu'3u4=a2, ka4ndu'3u4 i3in3 ndu'3u4 i3chi4 kan4 ndi4
+[Model Output]: entonces lo que afecta, lo que está en la cueva.
+[Reference]: Y ahí vio una cosa gruesa tirada en el camino,
+[CHRF]: 12.081056718475034
+[BLEU]: 4.02724819242185
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ba143 nu4na4 ke3ta3=ri4 nda4si2 mi4i4 ka4ndu'3u4 ya1 ka4ndu'3u4 tan3 i3kan4
+Spanish: encuentran su cueva tapada, entonces
+
+Example 2: 
+Mixtec: sa3kan4 ndi4 se4u2 kan4 chi3ka2=ndo4 yu'3u4=a2
+Spanish: lo ponen sobre la herida".
+
+Example 3: 
+Mixtec: ka4ndu'3u4=a2 ndi4 be'3e3 yu3ku4 ka4ndu'3u4=a2 ta4ba4 kwe'1e1 ji'4in(4)=un4.
+Spanish: y lo que te afecta está en la casa del cerro.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i3kan4 ka4ndu'3u4=a2, ka4ndu'3u4 i3in3 ndu'3u4 i3chi4 kan4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: xa1 ka4ba(1)=e1 ta'4bi4 xa1 ka4ba(1)=e1 ta'4bi4 ni3 ka4ndu'3u4=a2,
+[Model Output]: Por aquí está el lugar por aquí está el lugar donde se encuentra el río.
+[Reference]: que se movía de un lado para otro.
+[CHRF]: 18.260870425678334
+[BLEU]: 2.908317710573757
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ya1 ta'4bi4 i3ni2 xa'1a4=ra3, yo'4o4 i4ndu'3u4=a3.
+Spanish: En la mera planta del pie, en esta parte.
+
+Example 2: 
+Mixtec: Ya1 ta'4bi4 ni1nu1 ka1a3 ran4.
+Spanish: Por acá abajo, hacia San Luis.
+
+Example 3: 
+Mixtec: Ta'3bi4 tun4 ndi3ka4 u'1wa1 ta'4bi4 ni1nu1 yo'4o4.
+Spanish: Aquí es el lugar conocido como barranco del mamey de agua salada.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: xa1 ka4ba(1)=e1 ta'4bi4 xa1 ka4ba(1)=e1 ta'4bi4 ni3 ka4ndu'3u4=a2,
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i3kan4 ka4chi2 ti4 ku3ni4jo2 kan4 ji'4in(4)=a2 ndi4
+[Model Output]: les decimos conejos a los llamados <i>i3kan4 ka4chi2</i>,
+[Reference]: Entonces el conejo le dijo,
+[CHRF]: 21.400781735281335
+[BLEU]: 2.445593937240363
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Sa3kan4 ka4a4 ji'4in(4)=a3.
+Spanish: Eso es lo que se sabe.
+
+Example 2: 
+Mixtec: I3ta2 i4i4 ka4chi2=o4 ji'4in(4)=a2 kan4.
+Spanish: Les decimos flores estériles.
+
+Example 3: 
+Mixtec: ya1 ka4chi2=o4 yu1ku1 i3ta2 xa4ngi2 kan4 ji'4in(4)=a2 ndi4
+Spanish: como las flores de la planta llamada <i>i3ta2 ka3xan4gi2</i>,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i3kan4 ka4chi2 ti4 ku3ni4jo2 kan4 ji'4in(4)=a2 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: na4 ndu'3u4 ku4u(4)=e4 sa3kan4 ndi4, ta4xin24 ka4ndu'3u4 ba(3)=e4 na4 ndu'3u4 ku4u(4)=e4 sa3kan4
+[Model Output]: Entonces, cuando llegamos, nos sentamos para platicar.
+[Reference]: "Si somos una cosa gruesa deberíamos estar quietos".
+[CHRF]: 16.979050618818345
+[BLEU]: 3.7968017775955714
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: nde4ta(3)=e4 sa3kan4 ba3 nde4ta(3)=e4 sa3kan4 ba3 yu'3u4, yu'3u4, yu'3u4 ya1 ya3bi2 kan4
+Spanish: Ahí tiene uno que esperar donde están los hormigueros,
+
+Example 2: 
+Mixtec: Ndi4 a1su3 nda3tu'4un4 ba(3)=e4 ndi4, ya1kan3, na1 ja1 nde4e4 ku4u(4)=e4.
+Spanish: Bien, vamos a platicar porque para eso hemos venido.
+
+Example 3: 
+Mixtec: sa3kan4 ku4u4 tan3 i3ni2 na1 ba4li4 ku4u4 ba(3)=e2 ndi4
+Spanish: y pasó que como todo niño ....
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: na4 ndu'3u4 ku4u(4)=e4 sa3kan4 ndi4, ta4xin24 ka4ndu'3u4 ba(3)=e4 na4 ndu'3u4 ku4u(4)=e4 sa3kan4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: xa1 ka4ba1=e4 yo'4o4 xa1 ka4ba1=e4 kan4 ka4ndu'3u(4)=e4 ndi4 maña ku4u4 ndi'3i(3)=a2 yo'4o4 ka4chi2=ri4 tan3 ni1-nda3ba3=ri4 kwa'1an1 tu3kwa3=ri4
+[Model Output]: no se puede hacer nada, no se puede hacer nada, porque no hay manera de que alguien lo lleve y se le caiga.
+[Reference]: "Si nos movemos de un lado a otro eso es toda una trampa", dijo el conejo y echó a correr.
+[CHRF]: 15.412748551976415
+[BLEU]: 2.042946039568498
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ya1 kan4 ka4chi2 ka'4an4 yu'1u1 ndi4 ti4 ni'4i4 na1 kwa'1an1 ku4u4=ri4 tan3 ni1-nda3ba3 ka'4an4=ri4 i3tin2 xi3in4=na3.
+Spanish: por eso yo pensé que alguien llevaba ese animal de juguete y se le había caído.
+
+Example 2: 
+Mixtec: bi3tin3 ba42 ka'4yu(1)=a1 yo'4o4 tan3 ya1 kan4 ku4u4 ndi'3i(3)=a2 nda3tu'4un(4)=e4 xa'1a4.
+Spanish: y se está registrando. Eso es todo lo que platicamos.
+
+Example 3: 
+Mixtec: An4 ko14o3 paloma tu3 ku4u4=ri4 tan3 ja14-nda3ba3=na2=ri4 kwa'1an1=ri4.
+Spanish: O puede ser una paloma malherida que cae,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: xa1 ka4ba1=e4 yo'4o4 xa1 ka4ba1=e4 kan4 ka4ndu'3u(4)=e4 ndi4 maña ku4u4 ndi'3i(3)=a2 yo'4o4 ka4chi2=ri4 tan3 ni1-nda3ba3=ri4 kwa'1an1 tu3kwa3=ri4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ja143 xi4kwe'1e1=ni42 ko14chi4 ndi4, kwa'4an2 na'3a2 Lo3ren4su2 ndi4 nda'3a4=2 i4yo2 ba(3)=on4, ko14o(3)=a2 ji4ni2=un4 nda4a2 ku'1un(1)=un4
+[Model Output]: No sé si Lorenzo está en casa, porque no sabemos si él está enfermo.
+[Reference]: El cocodrilo se enojó y dijo, "Vete Lorenzo, como quiera te voy a agarrar, no tienes a dónde ir".
+[CHRF]: 15.915465949661222
+[BLEU]: 1.970646384365552
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: Ko14o(3)=a2 ji4ni2=un4.
+Spanish: No sabes.
+
+Example 2: 
+Mixtec: Xi4to(3)=e4 nda'3a4 ba3=na2 ko14o(3)=a2 ji4ni2=o4 yo3o3 ku4u(4)=a2 ji4ni2 na1 kan4 ndi4
+Spanish: Pues observamos lo que hacen, como nosotros no sabemos lo que ellos saben.
+
+Example 3: 
+Mixtec: Ko1o4 ndi'3bi4 ndi4, ya1kan3, ko14o(3)=a2 ji4ni2 bi4=a2 kan4.
+Spanish: Ese animal no es de mal agüero.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ja143 xi4kwe'1e1=ni42 ko14chi4 ndi4, kwa'4an2 na'3a2 Lo3ren4su2 ndi4 nda'3a4=2 i4yo2 ba(3)=on4, ko14o(3)=a2 ji4ni2=un4 nda4a2 ku'1un(1)=un4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: tu3ku3 ni3 nda13-ndi3ko4 tu3ku3=ri4 i3nga2, i3nga2 ñu3u42
+[Model Output]: Dieron otra vuelta, regresaron al pueblo.
+[Reference]: Luego el conejo regresó en otra ocasión en la noche.
+[CHRF]: 21.832461534806967
+[BLEU]: 4.513617516969122
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 nda13-ndi3ko4 tu3ku3=na2 kwa'1an1=na1.
+Spanish: Así que los guardias regresaron.
+
+Example 2: 
+Mixtec: Lu14u3=ri4. Nda13-ndi3ko4=ri4.
+Spanish: Eran muchos. Regresaron.
+
+Example 3: 
+Mixtec: A1be3, ja1 tu3ku3 ni3 ndia3kwa3 chi4ka2=ri4 nda13-ndi3ko4=ri4,
+Spanish: Sí, dieron otra vuelta, regresaron.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: tu3ku3 ni3 nda13-ndi3ko4 tu3ku3=ri4 i3nga2, i3nga2 ñu3u42
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: ka4ndu'3u4 tu3ku(3)=a2 ya1 ko14chi4 kan4 i3chi4 nda4a(2)=e2=ri4
+[Model Output]: El perro negro está ladrando porque algo indica.
+[Reference]: Y vio que el cocodrilo estaba atravesado en el camino esperando al conejo.
+[CHRF]: 18.697458257502465
+[BLEU]: 2.7354882120611315
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: na4tu2 nda4a(2)=e2
+Spanish: si es que ....
+
+Example 2: 
+Mixtec: ¿tan3 nda4a(2)=e2 ji4ni(2)=a2 ya1 kwi4in2 nda4a4 kan4?
+Spanish: ¿Qué pronostica ese otro de color pintito con negro?
+
+Example 3: 
+Mixtec: ¿Nda4a(2)=e2 ji4ni2=ri4?
+Spanish: ¿Qué indica?
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: ka4ndu'3u4 tu3ku(3)=a2 ya1 ko14chi4 kan4 i3chi4 nda4a(2)=e2=ri4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: i3kan4 ni1-ki3xa2a2=ri4 tan3 ta4xin24 ka4ndu'3u4 ya1 ndu'3u4 kan4 ka4ndu'3u4=a2 i3chi4, ja143 ka4chi2 ku3ni4jo2 ji'4in(4)=a2 ndi4
+[Model Output]: Entonces los niños vieron que el perro estaba comiendo, cuando la mujer llamó al hombre.
+[Reference]: Llegó al lugar y vio que esa cosa gruesa estaba quietecita en el camino, entonces el cocodrilo le dijo,
+[CHRF]: 24.038600623410122
+[BLEU]: 2.70279757737439
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ka4ndu'3u4=a2 ndi4 be'3e3 yu3ku4 ka4ndu'3u4=a2 ta4ba4 kwe'1e1 ji'4in(4)=un4.
+Spanish: y lo que te afecta está en la casa del cerro.
+
+Example 2: 
+Mixtec: Ja143 ni1-ki3xa2a2=na1 ja143 ka4chi2 tu3kwa3 ña4, ña4 kan4 ji'4in4 ta1 ku3ndu'4u4 ji'4in(4)=an4 ndi4:
+Spanish: Cuando los niños llegaron la mujer nuevamente le dijo al hombre:
+
+Example 3: 
+Mixtec: I3kan4 ja143 ka4chi2=ra1 ji'4in(4)=an4 ndi4:
+Spanish: Entonces el hombre le dijo a la mujer:
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: i3kan4 ni1-ki3xa2a2=ri4 tan3 ta4xin24 ka4ndu'3u4 ya1 ndu'3u4 kan4 ka4ndu'3u4=a2 i3chi4, ja143 ka4chi2 ku3ni4jo2 ji'4in(4)=a2 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: na4 sa3kan4 tan3 ndu'3u4 ku4u(4)=e4 sa3kan4 ndi4
+[Model Output]: Si supieras cómo pasó el tiempo.
+[Reference]: "Si fuéramos una cosa gruesa,
+[CHRF]: 11.918595492394969
+[BLEU]: 6.567274736060395
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 tan3
+Spanish: Luego ....
+
+Example 2: 
+Mixtec: compadre, na4 yo3o3 ku4u(4)=a2 sa3kan4 ndi4
+Spanish: "Compadre, si tú supieras,
+
+Example 3: 
+Mixtec: Sa3kan4 ni3 ku4u4 sa3kan4 ni3 ku4u4,
+Spanish: Y así pasó el tiempo,
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: na4 sa3kan4 tan3 ndu'3u4 ku4u(4)=e4 sa3kan4 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: xa1 ka4nda1=e4 so'3o3 ja1 ka4nda1=e4 so'3o3 xi4ka4ba1(3)=e4 ka4ndu'3u(4)=e4 na4 ndu'3u4 ku4u(4)=e4 sa3kan4 tan3 i3in3 xia4an4 ka4ndu'3u(4)=e4 ndi4 ya1 ka1a3 ndi4
+[Model Output]: cuando se tapa el sol se tapa el sol va a acostarse se tapa si no tiene pena entonces se queda despierta estos
+[Reference]: deberíamos movernos de un lado a otro, pero eso de estar quietecitos,
+[CHRF]: 18.61872594916221
+[BLEU]: 1.6466642419110007
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: ña4 ja1 xi4ka3ba3 ba(3)=en4 tio1to1 la'4la1 tan3 ka4ndu'3u(4)=an4, ka4ndu'3u(4)=an4 ndi4to3 ba(3)=en4 ka4ndu'3u(4)=an4 tan3
+Spanish: cuando eso va a pasar ella se acuesta, se tapa y ahí se queda despierta.
+
+Example 2: 
+Mixtec: ba143 nu4na4 ke3ta3=ri4 nda4si2 mi4i4 ka4ndu'3u4 ya1 ka4ndu'3u4 tan3 i3kan4
+Spanish: encuentran su cueva tapada, entonces
+
+Example 3: 
+Mixtec: Tio'1o3 ka1a3 ndi4 na4 sa3kan4 tan3 ku14-ka'3an3 nu14u(3)=e4 ku4u(4)=e4 na1 nda'4bi2 ndi4 xi14ko(3)=e4=2 tan3
+Spanish: Estos zapotes podríamos venderlos si no tuviéramos pena
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: xa1 ka4nda1=e4 so'3o3 ja1 ka4nda1=e4 so'3o3 xi4ka4ba1(3)=e4 ka4ndu'3u(4)=e4 na4 ndu'3u4 ku4u(4)=e4 sa3kan4 tan3 i3in3 xia4an4 ka4ndu'3u(4)=e4 ndi4 ya1 ka1a3 ndi4
+Spanish:
+
+[Setup]: chrf_3
+[Sentence to translate]: maña ku4u4 ndi'3i(3)=a2 ka1a3 ka4chi2=ri4 tan3 nda13-ndi3ko4 tu3ku3=ri4 kwa'1an1 ba3=ri4
+[Model Output]: Las flores frondosas se abren y luego regresan a sus lugares.
+[Reference]: se ve claramente que es una trampa", dijo el conejo y regresó corriendo por donde había venido.
+[CHRF]: 15.607057577481283
+[BLEU]: 2.2882399068641384
+[Prompt]:
+Please help me translate between Mixtec and Spanish. You are given some examples and a dictionary, translate the user's query in the end. Please only output the translated Spanish.
+Example 1: 
+Mixtec: I3kan4 nda13-ndi3ko4 tu3ku3=na2 kwa'1an1=na1.
+Spanish: Así que los guardias regresaron.
+
+Example 2: 
+Mixtec: kwa1nda3a3=ri4 ndi3bi4 tan3 nda3-ndi3ko4 tu3ku3=ri4 ki3xi3=ri4 ñu'3u4
+Spanish: Dicen que suben hasta el cielo y luego regresan a la tierra.
+
+Example 3: 
+Mixtec: I3ta2 ndo3ko2 ku4u4 ndi'3i(3)=a3.
+Spanish: Sí, son flores frondosas.
+
+Task (Translate to Spanish, output the translated Spanish only):
+Mixtec: maña ku4u4 ndi'3i(3)=a2 ka1a3 ka4chi2=ri4 tan3 nda13-ndi3ko4 tu3ku3=ri4 kwa'1an1 ba3=ri4
+Spanish:
+
+Corpus-Level CHRF for chrf_3: chrF2 = 74.87
+Corpus-Level BLEU for chrf_3: BLEU = 36.45 70.6/43.8/26.7/21.4 (BP = 1.000 ratio = 1.000 hyp_len = 17 ref_len = 17)
+COMET score for chrf_3: 0.492073575258255
+Average CHRF for chrf_3: 26.053043407731508
+Average BLEU for chrf_3: 9.713522561185023

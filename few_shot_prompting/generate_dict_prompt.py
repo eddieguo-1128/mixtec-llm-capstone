@@ -1,7 +1,7 @@
-from few_shot_prompting.select_examples import split_sentence, read_dict
+from select_examples import split_sentence, read_dict
 from get_dictionary_coverage import main, lookup_stem
 import collections
-from parse_toolbox import parse_toolbox
+#from parse_toolbox import parse_toolbox
 import json
 import logging
 import re
